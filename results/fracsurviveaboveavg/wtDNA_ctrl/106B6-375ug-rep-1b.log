@@ -1,0 +1,75 @@
+2018-09-10 20:04:03,957 - INFO - Beginning execution of dms2_fracsurvive in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+
+2018-09-10 20:04:03,957 - INFO - Progress is being logged to ./results/fracsurviveaboveavg/wtDNA_ctrl/106B6-375ug-rep-1b.log
+2018-09-10 20:04:10,639 - INFO - Version information:
+	Time and date: Mon Sep 10 20:04:03 2018
+	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
+	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
+	dms_tools2 version: 2.2.9
+	Bio version: 1.72
+	HTSeq version: 0.10.0
+	pandas version: 0.23.3
+	numpy version: 1.15.0
+	IPython version: 6.4.0
+	jupyter version: 1.0.0
+	matplotlib version: 2.2.2
+	plotnine version: 0.3.0
+	natsort version: 5.3.3
+	pystan version: 2.16.0.0
+	scipy version: 1.1.0
+	seaborn version: 0.9.0
+	phydmslib version: 2.3.1
+	statsmodels version: 0.9.0
+	rpy2 version: 2.9.1
+
+2018-09-10 20:04:10,639 - INFO - Parsed the following arguments:
+	outdir = ./results/fracsurviveaboveavg/wtDNA_ctrl
+	ncpus = 2
+	use_existing = yes
+	indir = ./results/renumberedcounts
+	chartype = codon_to_aa
+	aboveavg = yes
+	excludestop = yes
+	pseudocount = 5.0
+	mincount = 0
+	name = 106B6-375ug-rep-1b
+	sel = mut-virus-1b-106B6-375ug
+	mock = mut-virus-1b
+	libfracsurvive = 0.159753086
+	err = wt-DNA-1
+
+2018-09-10 20:04:10,642 - INFO - Reading selected sample counts from mut-virus-1b-106B6-375ug
+2018-09-10 20:04:10,669 - INFO - Reading mock-selected sample counts from mut-virus-1b
+2018-09-10 20:04:10,681 - INFO - Reading error-control sample counts from wt-DNA-1
+2018-09-10 20:04:10,693 - INFO - Computing fracsurvive for each mutation...
+2018-09-10 20:04:10,693 - INFO - These are the fracsurvive **above** the library average of 0.159753086
+2018-09-10 20:04:16,683 - INFO - Mutations with largest mutfracsurvive:
+site wildtype mutation  mutfracsurvive
+513        V        F            3.71
+518        V        F            1.83
+515        I        Y            1.81
+536        T        K            1.71
+515        I        P            1.59
+516        G        S            1.57
+515        I        A            1.57
+518        V        L            1.45
+516        G        D            1.35
+514        G        T            1.31
+
+2018-09-10 20:04:16,684 - INFO - Writing to ./results/fracsurviveaboveavg/wtDNA_ctrl/106B6-375ug-rep-1b_mutfracsurvive.csv
+2018-09-10 20:04:16,729 - INFO - Computing sitefracsurvive...
+2018-09-10 20:04:16,745 - INFO - Sites with largest avgfracsurvive:
+site  avgfracsurvive  maxfracsurvive
+516            0.72            1.57
+514            0.63            1.31
+513            0.58            3.71
+515            0.53            1.81
+518            0.47            1.83
+512            0.39            1.00
+524            0.21            1.31
+536            0.16            1.71
+521            0.10            0.37
+517            0.09            1.17
+
+2018-09-10 20:04:16,745 - INFO - Writing to ./results/fracsurviveaboveavg/wtDNA_ctrl/106B6-375ug-rep-1b_sitefracsurvive.csv
+2018-09-10 20:04:16,752 - INFO - Successful completion of dms2_fracsurvive

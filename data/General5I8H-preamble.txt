@@ -1,0 +1,41 @@
+import pymol
+from pymol import cmd
+
+# Fetch structure
+structure = '5i8h'
+cmd.reinitialize()
+cmd.delete('all')
+cmd.fetch(structure, type='pdb1')
+
+
+
+cmd.set('depth_cue', '0')
+
+
+# Generate symmetry partners based on crystal structure
+
+cmd.remove('c;L,J,I,K,E,F,H,G')
+
+cmd.symexp(structure, structure, structure, 3)
+
+#cmd.select('VRC34_A', 'c;E,F')
+#cmd.extract('VRC34_Aextract', 'VRC34_A')
+
+#cmd.select('VRC34_B', 'c;H,G')
+#cmd.extract('VRC34_Bextract', 'VRC34_B')
+
+#cmd.symexp(VRC34_Aextract, VRC34_Aextract, VRC34_Aextract, 3)
+
+
+# Tweak initial display and color of Env monomers
+cmd.hide('everything')
+cmd.bg_color('white')
+#cmd.show('cartoon')
+cmd.show('surface')
+#cmd.show('cartoon')
+cmd.color('white')
+#cmd.hide('surface', structure)
+cmd.color('white', structure)
+
+#cmd.set('cartoon_transparency', '0', structure)
+#cmd.set('transparency', '1', structure)

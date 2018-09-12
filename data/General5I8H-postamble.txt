@@ -1,0 +1,51 @@
+
+cmd.set_view ("""\
+     0.168791458,   -0.026894780,    0.985286057,\
+     0.984083831,    0.060927220,   -0.166922763,\
+    -0.055540826,    0.997778296,    0.036751628,\
+     0.000000000,    0.000000000, -382.734497070,\
+     0.000000000,    0.000000000,  175.544708252,\
+   259.073242188,  506.395843506,  -20.000000000 """)
+
+
+#cmd.select('N611_637', 'chain B and resi 611,637 + chain A and resi 611,637 + chain C and resi 611,637') 
+#cmd.show('sticks', 'N611_637')
+
+#cmd.hide('surface', 'VRC34_Aextract')
+#cmd.show('surface', 'VRC34_Aextract')
+#cmd.color('blue', 'VRC34_Aextract')
+
+#cmd.show('surface', 'VRC34')
+#cmd.color('blue', 'VRC34')
+
+#cmd.hide('surface', 'VRC34_Bextract')
+#cmd.show('cartoon', 'VRC34_Bextract')
+#cmd.color('blue', 'VRC34_Bextract')
+
+
+#cmd.select('other_monomers', 'chain A + chain B + chain D + chain E') 
+#cmd.extract('other_monomers_extract', 'other_monomers')
+#cmd.show('surface', 'other_monomers_extract')
+#cmd.color('white', 'other_monomers_extract')
+
+cmd.set_view ("""\
+     0.168791458,   -0.026894780,    0.985286057,\
+     0.984083831,    0.060927220,   -0.166922763,\
+    -0.055540826,    0.997778296,    0.036751628,\
+     0.000000000,    0.000000000, -382.734497070,\
+     0.000000000,    0.000000000,  175.544708252,\
+   259.073242188,  506.395843506,  -20.000000000 """)
+
+
+cmd.set('specular', "off")
+take_pictures = True
+if take_pictures:
+    cmd.set("use_shaders")
+    #cmd.bg_color('white')
+    cmd.png('{0}_5i8h_positive.png'.format(abname), width=1000, dpi=2000)#, ray=1)
+
+
+
+
+
+cmd.select(None)

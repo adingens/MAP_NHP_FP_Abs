@@ -1,0 +1,72 @@
+2018-09-10 19:42:46,569 - INFO - Beginning execution of dms2_diffsel in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+
+2018-09-10 19:42:46,569 - INFO - Progress is being logged to ./results/diffsel/wtDNA_ctrl/110D12-400ug-rep-2c.log
+2018-09-10 19:42:52,849 - INFO - Version information:
+	Time and date: Mon Sep 10 19:42:46 2018
+	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
+	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
+	dms_tools2 version: 2.2.9
+	Bio version: 1.72
+	HTSeq version: 0.10.0
+	pandas version: 0.23.3
+	numpy version: 1.15.0
+	IPython version: 6.4.0
+	jupyter version: 1.0.0
+	matplotlib version: 2.2.2
+	plotnine version: 0.3.0
+	natsort version: 5.3.3
+	pystan version: 2.16.0.0
+	scipy version: 1.1.0
+	seaborn version: 0.9.0
+	phydmslib version: 2.3.1
+	statsmodels version: 0.9.0
+	rpy2 version: 2.9.1
+
+2018-09-10 19:42:52,850 - INFO - Parsed the following arguments:
+	outdir = ./results/diffsel/wtDNA_ctrl
+	ncpus = 2
+	use_existing = yes
+	indir = ./results/renumberedcounts
+	chartype = codon_to_aa
+	excludestop = yes
+	pseudocount = 5.0
+	mincount = 0
+	name = 110D12-400ug-rep-2c
+	sel = mut-virus-2c-110D12-400ug
+	mock = mut-virus-2c
+	err = wt-DNA-2
+
+2018-09-10 19:42:52,852 - INFO - Reading selected sample counts from mut-virus-2c-110D12-400ug
+2018-09-10 19:42:52,893 - INFO - Reading mock-selected sample counts from mut-virus-2c
+2018-09-10 19:42:52,911 - INFO - Reading error-control sample counts from wt-DNA-2
+2018-09-10 19:42:52,926 - INFO - Computing mutdiffsel...
+2018-09-10 19:42:58,749 - INFO - Mutations with largest mutdiffsel:
+site wildtype mutation  mutdiffsel
+516        G        A        6.38
+516        G        L        6.32
+515        I        G        6.32
+516        G        V        6.18
+516        G        H        5.90
+514        G        P        5.89
+514        G        V        5.79
+515        I        P        5.73
+518        V        G        5.71
+516        G        N        5.65
+
+2018-09-10 19:42:58,750 - INFO - Writing to ./results/diffsel/wtDNA_ctrl/110D12-400ug-rep-2c_mutdiffsel.csv
+2018-09-10 19:42:58,797 - INFO - Computing sitediffsel...
+2018-09-10 19:42:58,822 - INFO - Sites with largest absolute sitediffsel:
+site  abs_diffsel  positive_diffsel  negative_diffsel  max_diffsel  min_diffsel
+516        96.38             96.38              0.00         6.38         0.00
+514        83.79             83.79              0.00         5.89         0.00
+513        58.61             58.61              0.00         5.64         0.00
+512        50.91             49.99             -0.92         5.20        -0.37
+515        44.17             42.22             -1.96         6.32        -1.58
+408        29.69              3.25            -26.44         1.67        -3.20
+613        28.25              0.33            -27.92         0.33        -3.25
+611        25.89              0.00            -25.89         0.00        -3.44
+241        25.80              5.84            -19.97         2.68        -2.38
+430        24.29              1.64            -22.65         1.64        -2.59
+
+2018-09-10 19:42:58,822 - INFO - Writing to ./results/diffsel/wtDNA_ctrl/110D12-400ug-rep-2c_sitediffsel.csv
+2018-09-10 19:42:58,841 - INFO - Successful completion of dms2_diffsel

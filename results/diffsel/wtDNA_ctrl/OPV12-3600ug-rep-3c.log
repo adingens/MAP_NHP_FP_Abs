@@ -1,0 +1,72 @@
+2018-09-10 19:42:46,756 - INFO - Beginning execution of dms2_diffsel in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+
+2018-09-10 19:42:46,756 - INFO - Progress is being logged to ./results/diffsel/wtDNA_ctrl/OPV12-3600ug-rep-3c.log
+2018-09-10 19:42:53,426 - INFO - Version information:
+	Time and date: Mon Sep 10 19:42:46 2018
+	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
+	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
+	dms_tools2 version: 2.2.9
+	Bio version: 1.72
+	HTSeq version: 0.10.0
+	pandas version: 0.23.3
+	numpy version: 1.15.0
+	IPython version: 6.4.0
+	jupyter version: 1.0.0
+	matplotlib version: 2.2.2
+	plotnine version: 0.3.0
+	natsort version: 5.3.3
+	pystan version: 2.16.0.0
+	scipy version: 1.1.0
+	seaborn version: 0.9.0
+	phydmslib version: 2.3.1
+	statsmodels version: 0.9.0
+	rpy2 version: 2.9.1
+
+2018-09-10 19:42:53,426 - INFO - Parsed the following arguments:
+	outdir = ./results/diffsel/wtDNA_ctrl
+	ncpus = 2
+	use_existing = yes
+	indir = ./results/renumberedcounts
+	chartype = codon_to_aa
+	excludestop = yes
+	pseudocount = 5.0
+	mincount = 0
+	name = OPV12-3600ug-rep-3c
+	sel = mut-virus-3c-OPV12-3600ug
+	mock = mut-virus-3c
+	err = wt-DNA-3
+
+2018-09-10 19:42:53,430 - INFO - Reading selected sample counts from mut-virus-3c-OPV12-3600ug
+2018-09-10 19:42:53,463 - INFO - Reading mock-selected sample counts from mut-virus-3c
+2018-09-10 19:42:53,482 - INFO - Reading error-control sample counts from wt-DNA-3
+2018-09-10 19:42:53,496 - INFO - Computing mutdiffsel...
+2018-09-10 19:42:59,143 - INFO - Mutations with largest mutdiffsel:
+site wildtype mutation  mutdiffsel
+513        V        F        5.30
+518        V        G        4.67
+513        V        S        4.67
+512        A        V        4.50
+514        G        P        4.32
+515        I        F        4.24
+514        G        A        4.22
+516        G        F        4.11
+512        A        Q        4.11
+512        A        E        4.05
+
+2018-09-10 19:42:59,144 - INFO - Writing to ./results/diffsel/wtDNA_ctrl/OPV12-3600ug-rep-3c_mutdiffsel.csv
+2018-09-10 19:42:59,212 - INFO - Computing sitediffsel...
+2018-09-10 19:42:59,245 - INFO - Sites with largest absolute sitediffsel:
+site  abs_diffsel  positive_diffsel  negative_diffsel  max_diffsel  min_diffsel
+512        56.05             56.05              0.00         4.50         0.00
+516        54.88             53.59             -1.29         4.11        -1.29
+514        48.79             48.55             -0.24         4.32        -0.24
+515        41.45             40.77             -0.67         4.24        -0.22
+513        37.55             36.89             -0.66         5.30        -0.66
+613        32.18              1.73            -30.44         1.11        -3.84
+518        30.70             30.03             -0.66         4.67        -0.66
+524        28.22             25.81             -2.42         3.26        -1.23
+110        27.12              0.10            -27.01         0.10        -2.61
+ 33        25.76              3.28            -22.48         1.12        -3.11
+
+2018-09-10 19:42:59,245 - INFO - Writing to ./results/diffsel/wtDNA_ctrl/OPV12-3600ug-rep-3c_sitediffsel.csv
+2018-09-10 19:42:59,258 - INFO - Successful completion of dms2_diffsel

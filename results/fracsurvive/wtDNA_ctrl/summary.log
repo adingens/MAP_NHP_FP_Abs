@@ -1,0 +1,64 @@
+2018-09-11 10:11:25,891 - INFO - Beginning execution of dms2_batch_fracsurvive in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+
+2018-09-11 10:11:25,892 - INFO - Progress is being logged to ./results/fracsurvive/wtDNA_ctrl/summary.log
+2018-09-11 10:11:29,459 - INFO - Version information:
+	Time and date: Tue Sep 11 10:11:25 2018
+	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
+	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
+	dms_tools2 version: 2.2.9
+	Bio version: 1.72
+	HTSeq version: 0.10.0
+	pandas version: 0.23.3
+	numpy version: 1.15.0
+	IPython version: 6.4.0
+	jupyter version: 1.0.0
+	matplotlib version: 2.2.2
+	plotnine version: 0.3.0
+	natsort version: 5.3.3
+	pystan version: 2.16.0.0
+	scipy version: 1.1.0
+	seaborn version: 0.9.0
+	phydmslib version: 2.3.1
+	statsmodels version: 0.9.0
+	rpy2 version: 2.9.1
+
+2018-09-11 10:11:29,459 - INFO - Parsed the following arguments:
+	outdir = ./results/fracsurvive/wtDNA_ctrl
+	ncpus = -1
+	use_existing = yes
+	indir = ./results/renumberedcounts
+	chartype = codon_to_aa
+	aboveavg = no
+	excludestop = yes
+	pseudocount = 5
+	mincount = 0
+	batchfile = ./results/fracsurvive/wtDNA_ctrl/batch.csv
+	summaryprefix = summary
+
+2018-09-11 10:11:29,459 - INFO - Parsing info from ./results/fracsurvive/wtDNA_ctrl/batch.csv
+2018-09-11 10:11:29,497 - INFO - Read the following sample information:
+group,name,sel,mock,err,mds_names,libfracsurvive
+106B6,375ug-rep-1b,mut-virus-1b-106B6-375ug,mut-virus-1b,wt-DNA-1,106B6-375ug-375ug-rep-1b,0.159753086
+106B6,375ug-rep-2b,mut-virus-2b-106B6-375ug,mut-virus-2b,wt-DNA-2,106B6-375ug-375ug-rep-2b,0.028992677
+106E6,375ug-rep-2b,mut-virus-2b-106E6-375ug,mut-virus-2b,wt-DNA-2,106E6-375ug-375ug-rep-2b,0.071178508
+106E6,375ug-rep-1b,mut-virus-1b-106E6-375ug,mut-virus-1b,wt-DNA-1,106E6-375ug-375ug-rep-1b,0.117901235
+110D12,700ug-rep-2c,mut-virus-2c-110D12-700ug,mut-virus-2c,wt-DNA-2,110D12-700ug-700ug-rep-2c,0.006386886
+110D12,400ug-rep-2c,mut-virus-2c-110D12-400ug,mut-virus-2c,wt-DNA-2,110D12-400ug-400ug-rep-2c,0.008321905
+110D12,400ug-rep-3c,mut-virus-3c-110D12-400ug,mut-virus-3c,wt-DNA-3,110D12-400ug-400ug-rep-3c,0.006986651
+17D4,4200ug-rep-2c,mut-virus-2c-17D4-4200ug,mut-virus-2c,wt-DNA-2,17D4-4200ug-4200ug-rep-2c,0.108594438
+17D4,5000ug-rep-3c,mut-virus-3c-17D4-5000ug,mut-virus-3c,wt-DNA-3,17D4-5000ug-5000ug-rep-3c,0.051157213
+17D4,3500ug-rep-2c,mut-virus-2c-17D4-3500ug,mut-virus-2c,wt-DNA-2,17D4-3500ug-3500ug-rep-2c,0.176505534
+DF1W203,275ug-rep-2c,mut-virus-2c-DF1W203-275ug,mut-virus-2c,wt-DNA-2,DF1W203-275ug-275ug-rep-2c,0.136216221
+DF1W203,400ug-rep-3c,mut-virus-3c-DF1W203-400ug,mut-virus-3c,wt-DNA-3,DF1W203-400ug-400ug-rep-3c,0.029421861
+DF1W314,160ug-rep-3c,mut-virus-3c-DF1W314-160ug,mut-virus-3c,wt-DNA-3,DF1W314-160ug-160ug-rep-3c,0.012532842
+DF1W314,60ug-rep-1b,mut-virus-1b-DF1W314-60ug,mut-virus-1b,wt-DNA-1,DF1W314-60ug-60ug-rep-1b,0.102716049
+DF1W314,60ug-rep-2c,mut-virus-2c-DF1W314-60ug,mut-virus-2c,wt-DNA-2,DF1W314-60ug-60ug-rep-2c,0.170300232
+DF1W314,80ug-rep-3c,mut-virus-3c-DF1W314-80ug,mut-virus-3c,wt-DNA-3,DF1W314-80ug-80ug-rep-3c,0.031768134
+DF1W314,80ug-rep-2c,mut-virus-2c-DF1W314-80ug,mut-virus-2c,wt-DNA-2,DF1W314-80ug-80ug-rep-2c,0.146913457
+OPV12,4000ug-rep-2c,mut-virus-2c-OPV12-4000ug,mut-virus-2c,wt-DNA-2,OPV12-4000ug-4000ug-rep-2c,0.008155111999999999
+OPV12,3600ug-rep-3c,mut-virus-3c-OPV12-3600ug,mut-virus-3c,wt-DNA-3,OPV12-3600ug-3600ug-rep-3c,0.010646493
+OPV20,1750ug-rep-2c,mut-virus-2c-OPV20-1750ug,mut-virus-2c,wt-DNA-2,OPV20-1750ug-1750ug-rep-2c,0.022658624
+OPV20,1750ug-rep-3c,mut-virus-3c-OPV20-1750ug,mut-virus-3c,wt-DNA-3,OPV20-1750ug-1750ug-rep-3c,0.0119139
+
+
+2018-09-11 10:11:29,523 - INFO - Output summary files already exist and '--use_existing' is 'yes', so exiting with no further action.

@@ -1,0 +1,72 @@
+2018-09-10 19:42:46,552 - INFO - Beginning execution of dms2_diffsel in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+
+2018-09-10 19:42:46,552 - INFO - Progress is being logged to ./results/diffsel/wtDNA_ctrl/DF1W203-275ug-rep-2c.log
+2018-09-10 19:42:52,900 - INFO - Version information:
+	Time and date: Mon Sep 10 19:42:46 2018
+	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
+	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
+	dms_tools2 version: 2.2.9
+	Bio version: 1.72
+	HTSeq version: 0.10.0
+	pandas version: 0.23.3
+	numpy version: 1.15.0
+	IPython version: 6.4.0
+	jupyter version: 1.0.0
+	matplotlib version: 2.2.2
+	plotnine version: 0.3.0
+	natsort version: 5.3.3
+	pystan version: 2.16.0.0
+	scipy version: 1.1.0
+	seaborn version: 0.9.0
+	phydmslib version: 2.3.1
+	statsmodels version: 0.9.0
+	rpy2 version: 2.9.1
+
+2018-09-10 19:42:52,901 - INFO - Parsed the following arguments:
+	outdir = ./results/diffsel/wtDNA_ctrl
+	ncpus = 2
+	use_existing = yes
+	indir = ./results/renumberedcounts
+	chartype = codon_to_aa
+	excludestop = yes
+	pseudocount = 5.0
+	mincount = 0
+	name = DF1W203-275ug-rep-2c
+	sel = mut-virus-2c-DF1W203-275ug
+	mock = mut-virus-2c
+	err = wt-DNA-2
+
+2018-09-10 19:42:52,903 - INFO - Reading selected sample counts from mut-virus-2c-DF1W203-275ug
+2018-09-10 19:42:52,927 - INFO - Reading mock-selected sample counts from mut-virus-2c
+2018-09-10 19:42:52,939 - INFO - Reading error-control sample counts from wt-DNA-2
+2018-09-10 19:42:52,951 - INFO - Computing mutdiffsel...
+2018-09-10 19:42:58,999 - INFO - Mutations with largest mutdiffsel:
+site wildtype mutation  mutdiffsel
+512        A        E        3.32
+512        A        Y        3.05
+514        G        L        2.83
+536        T        K        2.77
+519        F        S        2.60
+513        V        S        2.60
+512        A        L        2.57
+515        I        F        2.56
+516        G        F        2.48
+516        G        L        2.47
+
+2018-09-10 19:42:58,999 - INFO - Writing to ./results/diffsel/wtDNA_ctrl/DF1W203-275ug-rep-2c_mutdiffsel.csv
+2018-09-10 19:42:59,066 - INFO - Computing sitediffsel...
+2018-09-10 19:42:59,095 - INFO - Sites with largest absolute sitediffsel:
+site  abs_diffsel  positive_diffsel  negative_diffsel  max_diffsel  min_diffsel
+512        32.51             31.82             -0.70         3.32        -0.46
+516        30.94             30.94              0.00         2.48         0.00
+514        30.38             30.38              0.00         2.83         0.00
+513        24.30             23.47             -0.83         2.60        -0.83
+515        23.71             21.82             -1.89         2.56        -1.89
+594        23.38              0.00            -23.38         0.00        -2.49
+613        20.34              0.14            -20.20         0.14        -2.23
+611        19.96              0.15            -19.80         0.15        -2.20
+207        18.36              0.19            -18.17         0.13        -2.17
+433        18.09              0.02            -18.07         0.02        -1.90
+
+2018-09-10 19:42:59,095 - INFO - Writing to ./results/diffsel/wtDNA_ctrl/DF1W203-275ug-rep-2c_sitediffsel.csv
+2018-09-10 19:42:59,108 - INFO - Successful completion of dms2_diffsel

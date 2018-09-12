@@ -1,0 +1,182 @@
+2018-09-10 17:28:47,560 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+
+2018-09-10 17:28:47,560 - INFO - Progress is being logged to ./results/codoncounts/wt-DNA-1.log
+2018-09-10 17:29:39,713 - INFO - Version information:
+	Time and date: Mon Sep 10 17:28:47 2018
+	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
+	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
+	dms_tools2 version: 2.2.9
+	Bio version: 1.72
+	HTSeq version: 0.10.0
+	pandas version: 0.23.3
+	numpy version: 1.15.0
+	IPython version: 6.4.0
+	jupyter version: 1.0.0
+	matplotlib version: 2.2.2
+	plotnine version: 0.3.0
+	natsort version: 5.3.3
+	pystan version: 2.16.0.0
+	scipy version: 1.1.0
+	seaborn version: 0.9.0
+	phydmslib version: 2.3.1
+	statsmodels version: 0.9.0
+	rpy2 version: 2.9.1
+
+2018-09-10 17:29:39,714 - INFO - Parsed the following arguments:
+	outdir = ./results/codoncounts
+	ncpus = -1
+	use_existing = yes
+	refseq = ./data/BG505.W6.C2.T332N_env.fasta
+	alignspecs = ['87,375,39,36', '376,666,36,39', '663,954,33,41', '955,1228,33,37', '1228,1527,34,35', '1527,1815,32,39', '1816,2098,36,41']
+	bclen = 8
+	fastqdir = ../FASTQ_files/
+	R2 = None
+	R1trim = [200]
+	R2trim = [170]
+	bclen2 = None
+	chartype = codon
+	maxmuts = 4
+	minq = 15
+	minreads = 2
+	minfraccall = 0.95
+	minconcur = 0.75
+	sitemask = ./data/sitemask_BG505.txt
+	purgeread = 0
+	purgebc = 0
+	bcinfo = False
+	name = wt-DNA-1
+	R1 = ['BG505_wt-DNA_1_R1.fastq.gz']
+
+2018-09-10 17:29:40,088 - INFO - Read refseq of 2583 codons from ./data/BG505.W6.C2.T332N_env.fasta
+2018-09-10 17:29:40,123 - INFO - Reads are in these FASTQ pairs:
+	../FASTQ_files/BG505_wt-DNA_1_R1.fastq.gz and ../FASTQ_files/BG505_wt-DNA_1_R2.fastq.gz
+
+2018-09-10 17:29:40,123 - INFO - Now parsing read pairs...
+2018-09-10 17:30:22,748 - INFO - Reads parsed so far: 500000
+2018-09-10 17:31:02,489 - INFO - Reads parsed so far: 1000000
+2018-09-10 17:31:42,696 - INFO - Reads parsed so far: 1500000
+2018-09-10 17:32:19,434 - INFO - Reads parsed so far: 2000000
+2018-09-10 17:32:59,407 - INFO - Reads parsed so far: 2500000
+2018-09-10 17:33:38,591 - INFO - Reads parsed so far: 3000000
+2018-09-10 17:34:08,320 - INFO - Reads parsed so far: 3500000
+2018-09-10 17:34:42,711 - INFO - Reads parsed so far: 4000000
+2018-09-10 17:35:19,484 - INFO - Reads parsed so far: 4500000
+2018-09-10 17:36:02,002 - INFO - Reads parsed so far: 5000000
+2018-09-10 17:36:40,902 - INFO - Reads parsed so far: 5500000
+2018-09-10 17:37:18,446 - INFO - Reads parsed so far: 6000000
+2018-09-10 17:37:56,811 - INFO - Reads parsed so far: 6500000
+2018-09-10 17:38:41,951 - INFO - Reads parsed so far: 7000000
+2018-09-10 17:39:20,416 - INFO - Reads parsed so far: 7500000
+2018-09-10 17:39:56,600 - INFO - Reads parsed so far: 8000000
+2018-09-10 17:40:35,036 - INFO - Reads parsed so far: 8500000
+2018-09-10 17:41:13,873 - INFO - Reads parsed so far: 9000000
+2018-09-10 17:41:56,921 - INFO - Reads parsed so far: 9500000
+2018-09-10 17:42:33,913 - INFO - Reads parsed so far: 10000000
+2018-09-10 17:43:11,017 - INFO - Reads parsed so far: 10500000
+2018-09-10 17:43:48,552 - INFO - Reads parsed so far: 11000000
+2018-09-10 17:44:25,348 - INFO - Reads parsed so far: 11500000
+2018-09-10 17:45:09,676 - INFO - Reads parsed so far: 12000000
+2018-09-10 17:45:46,879 - INFO - Reads parsed so far: 12500000
+2018-09-10 17:46:43,648 - INFO - Reads parsed so far: 13000000
+2018-09-10 17:47:22,384 - INFO - Reads parsed so far: 13500000
+2018-09-10 17:48:00,040 - INFO - Reads parsed so far: 14000000
+2018-09-10 17:48:38,539 - INFO - Reads parsed so far: 14500000
+2018-09-10 17:49:15,863 - INFO - Reads parsed so far: 15000000
+2018-09-10 17:49:52,245 - INFO - Reads parsed so far: 15500000
+2018-09-10 17:50:30,654 - INFO - Reads parsed so far: 16000000
+2018-09-10 17:51:09,043 - INFO - Reads parsed so far: 16500000
+2018-09-10 17:51:48,071 - INFO - Reads parsed so far: 17000000
+2018-09-10 17:52:26,898 - INFO - Reads parsed so far: 17500000
+2018-09-10 17:53:14,137 - INFO - Reads parsed so far: 18000000
+2018-09-10 17:54:13,376 - INFO - Reads parsed so far: 18500000
+2018-09-10 17:54:49,059 - INFO - Reads parsed so far: 19000000
+2018-09-10 17:55:26,222 - INFO - Reads parsed so far: 19500000
+2018-09-10 17:56:02,753 - INFO - Reads parsed so far: 20000000
+2018-09-10 17:56:25,000 - INFO - Reads parsed so far: 20500000
+2018-09-10 18:20:50,205 - INFO - Reads parsed so far: 21000000
+2018-09-10 18:29:58,353 - INFO - Parsed 21105853 reads, found 9169534 unique barcodes.
+2018-09-10 18:30:00,651 - INFO - Summary stats on reads:
+total  fail filter  low Q barcode
+21105853       957500        2192947
+2018-09-10 18:30:00,656 - INFO - Writing these stats to ./results/codoncounts/wt-DNA-1_readstats.csv
+
+2018-09-10 18:33:08,671 - INFO - Number of reads per barcode:
+                 number of barcodes
+number of reads                    
+1                           5101580
+2                           1627533
+3                           1156418
+4                            685904
+5                            348041
+6                            154697
+7                             61752
+8                             22508
+9                              7550
+10                             2426
+11                              771
+12                              250
+13                               71
+14                               25
+15                                3
+16                                1
+17                                1
+18                                2
+97                                1
+2018-09-10 18:33:08,671 - INFO - Writing these stats to ./results/codoncounts/wt-DNA-1_readsperbc.csv
+
+2018-09-10 18:33:08,677 - INFO - Examining the 9169534 barcodes to build and align subamplicons...
+2018-09-10 18:38:02,633 - INFO - Barcodes examined so far: 200000
+2018-09-10 18:39:25,771 - INFO - Barcodes examined so far: 400000
+2018-09-10 18:39:57,399 - INFO - Barcodes examined so far: 600000
+2018-09-10 18:40:13,964 - INFO - Barcodes examined so far: 800000
+2018-09-10 18:40:27,096 - INFO - Barcodes examined so far: 1000000
+2018-09-10 18:40:37,975 - INFO - Barcodes examined so far: 1200000
+2018-09-10 18:40:48,244 - INFO - Barcodes examined so far: 1400000
+2018-09-10 18:40:58,094 - INFO - Barcodes examined so far: 1600000
+2018-09-10 18:41:08,359 - INFO - Barcodes examined so far: 1800000
+2018-09-10 18:41:16,972 - INFO - Barcodes examined so far: 2000000
+2018-09-10 18:41:24,812 - INFO - Barcodes examined so far: 2200000
+2018-09-10 18:41:32,304 - INFO - Barcodes examined so far: 2400000
+2018-09-10 18:41:39,323 - INFO - Barcodes examined so far: 2600000
+2018-09-10 18:41:46,206 - INFO - Barcodes examined so far: 2800000
+2018-09-10 18:41:52,818 - INFO - Barcodes examined so far: 3000000
+2018-09-10 18:41:59,327 - INFO - Barcodes examined so far: 3200000
+2018-09-10 18:42:05,761 - INFO - Barcodes examined so far: 3400000
+2018-09-10 18:42:11,696 - INFO - Barcodes examined so far: 3600000
+2018-09-10 18:42:17,576 - INFO - Barcodes examined so far: 3800000
+2018-09-10 18:42:23,333 - INFO - Barcodes examined so far: 4000000
+2018-09-10 18:42:28,817 - INFO - Barcodes examined so far: 4200000
+2018-09-10 18:42:34,157 - INFO - Barcodes examined so far: 4400000
+2018-09-10 18:42:39,403 - INFO - Barcodes examined so far: 4600000
+2018-09-10 18:42:44,469 - INFO - Barcodes examined so far: 4800000
+2018-09-10 18:42:49,556 - INFO - Barcodes examined so far: 5000000
+2018-09-10 18:42:54,137 - INFO - Barcodes examined so far: 5200000
+2018-09-10 18:42:58,465 - INFO - Barcodes examined so far: 5400000
+2018-09-10 18:43:02,857 - INFO - Barcodes examined so far: 5600000
+2018-09-10 18:43:07,004 - INFO - Barcodes examined so far: 5800000
+2018-09-10 18:43:10,873 - INFO - Barcodes examined so far: 6000000
+2018-09-10 18:43:14,612 - INFO - Barcodes examined so far: 6200000
+2018-09-10 18:43:18,095 - INFO - Barcodes examined so far: 6400000
+2018-09-10 18:43:21,307 - INFO - Barcodes examined so far: 6600000
+2018-09-10 18:43:24,228 - INFO - Barcodes examined so far: 6800000
+2018-09-10 18:43:27,072 - INFO - Barcodes examined so far: 7000000
+2018-09-10 18:43:29,641 - INFO - Barcodes examined so far: 7200000
+2018-09-10 18:43:31,963 - INFO - Barcodes examined so far: 7400000
+2018-09-10 18:43:34,104 - INFO - Barcodes examined so far: 7600000
+2018-09-10 18:43:36,016 - INFO - Barcodes examined so far: 7800000
+2018-09-10 18:43:37,718 - INFO - Barcodes examined so far: 8000000
+2018-09-10 18:43:39,038 - INFO - Barcodes examined so far: 8200000
+2018-09-10 18:43:40,117 - INFO - Barcodes examined so far: 8400000
+2018-09-10 18:43:41,002 - INFO - Barcodes examined so far: 8600000
+2018-09-10 18:43:41,659 - INFO - Barcodes examined so far: 8800000
+2018-09-10 18:43:42,065 - INFO - Barcodes examined so far: 9000000
+2018-09-10 18:43:42,250 - INFO - Examined all barcodes. Summary stats:
+total  too few reads  not alignable  aligned
+9169534        5101580        1406738  2661216
+2018-09-10 18:43:42,250 - INFO - Writing these stats to ./results/codoncounts/wt-DNA-1_bcstats.csv
+
+2018-09-10 18:43:42,359 - INFO - Filtering to only sites listed in sitemask ./data/sitemask_BG505.txt
+2018-09-10 18:43:42,740 - INFO - Filtered from 861 to 670 sites.
+2018-09-10 18:43:42,740 - INFO - Writing the counts of each codon identity at each site to ./results/codoncounts/wt-DNA-1_codoncounts.csv
+
+2018-09-10 18:43:42,785 - INFO - Successful completion of dms2_bcsubamp
