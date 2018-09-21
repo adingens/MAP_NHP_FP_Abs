@@ -1,8 +1,8 @@
-2018-09-10 19:42:46,657 - INFO - Beginning execution of dms2_diffsel in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+2018-09-21 07:10:20,006 - INFO - Beginning execution of dms2_diffsel in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
 
-2018-09-10 19:42:46,657 - INFO - Progress is being logged to ./results/diffsel/wtDNA_ctrl/106B6-375ug-rep-1b.log
-2018-09-10 19:42:52,936 - INFO - Version information:
-	Time and date: Mon Sep 10 19:42:46 2018
+2018-09-21 07:10:20,006 - INFO - Progress is being logged to ./results/diffsel/wtDNA_ctrl/106B6-375ug-rep-1b.log
+2018-09-21 07:10:34,943 - INFO - Version information:
+	Time and date: Fri Sep 21 07:10:20 2018
 	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
 	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
 	dms_tools2 version: 2.2.9
@@ -22,9 +22,9 @@
 	statsmodels version: 0.9.0
 	rpy2 version: 2.9.1
 
-2018-09-10 19:42:52,937 - INFO - Parsed the following arguments:
+2018-09-21 07:10:34,946 - INFO - Parsed the following arguments:
 	outdir = ./results/diffsel/wtDNA_ctrl
-	ncpus = 2
+	ncpus = 1
 	use_existing = yes
 	indir = ./results/renumberedcounts
 	chartype = codon_to_aa
@@ -36,11 +36,11 @@
 	mock = mut-virus-1b
 	err = wt-DNA-1
 
-2018-09-10 19:42:52,939 - INFO - Reading selected sample counts from mut-virus-1b-106B6-375ug
-2018-09-10 19:42:52,964 - INFO - Reading mock-selected sample counts from mut-virus-1b
-2018-09-10 19:42:52,977 - INFO - Reading error-control sample counts from wt-DNA-1
-2018-09-10 19:42:52,990 - INFO - Computing mutdiffsel...
-2018-09-10 19:42:58,168 - INFO - Mutations with largest mutdiffsel:
+2018-09-21 07:10:34,953 - INFO - Reading selected sample counts from mut-virus-1b-106B6-375ug
+2018-09-21 07:10:35,006 - INFO - Reading mock-selected sample counts from mut-virus-1b
+2018-09-21 07:10:35,016 - INFO - Reading error-control sample counts from wt-DNA-1
+2018-09-21 07:10:35,025 - INFO - Computing mutdiffsel...
+2018-09-21 07:10:40,373 - INFO - Mutations with largest mutdiffsel:
 site wildtype mutation  mutdiffsel
 513        V        F        4.61
 518        V        F        3.65
@@ -53,9 +53,9 @@ site wildtype mutation  mutdiffsel
 516        G        D        3.25
 514        G        T        3.22
 
-2018-09-10 19:42:58,168 - INFO - Writing to ./results/diffsel/wtDNA_ctrl/106B6-375ug-rep-1b_mutdiffsel.csv
-2018-09-10 19:42:58,226 - INFO - Computing sitediffsel...
-2018-09-10 19:42:58,255 - INFO - Sites with largest absolute sitediffsel:
+2018-09-21 07:10:40,374 - INFO - Writing to ./results/diffsel/wtDNA_ctrl/106B6-375ug-rep-1b_mutdiffsel.csv
+2018-09-21 07:10:40,419 - INFO - Computing sitediffsel...
+2018-09-21 07:10:40,439 - INFO - Sites with largest absolute sitediffsel:
 site  abs_diffsel  positive_diffsel  negative_diffsel  max_diffsel  min_diffsel
 516        42.60             42.60              0.00         3.45         0.00
 514        41.33             41.33              0.00         3.22         0.00
@@ -68,5 +68,5 @@ site  abs_diffsel  positive_diffsel  negative_diffsel  max_diffsel  min_diffsel
 611        19.02              0.00            -19.02         0.00        -3.07
  88        18.34              1.53            -16.81         0.85        -2.01
 
-2018-09-10 19:42:58,255 - INFO - Writing to ./results/diffsel/wtDNA_ctrl/106B6-375ug-rep-1b_sitediffsel.csv
-2018-09-10 19:42:58,268 - INFO - Successful completion of dms2_diffsel
+2018-09-21 07:10:40,439 - INFO - Writing to ./results/diffsel/wtDNA_ctrl/106B6-375ug-rep-1b_sitediffsel.csv
+2018-09-21 07:10:40,450 - INFO - Successful completion of dms2_diffsel

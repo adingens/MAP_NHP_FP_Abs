@@ -1,8 +1,8 @@
-2018-09-10 16:49:01,061 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+2018-09-21 06:51:35,165 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
 
-2018-09-10 16:49:01,062 - INFO - Progress is being logged to ./results/codoncounts/wt-virus-1b.log
-2018-09-10 16:49:08,942 - INFO - Version information:
-	Time and date: Mon Sep 10 16:49:01 2018
+2018-09-21 06:51:35,165 - INFO - Progress is being logged to ./results/codoncounts/wt-virus-1b.log
+2018-09-21 06:52:07,367 - INFO - Version information:
+	Time and date: Fri Sep 21 06:51:35 2018
 	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
 	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
 	dms_tools2 version: 2.2.9
@@ -22,14 +22,14 @@
 	statsmodels version: 0.9.0
 	rpy2 version: 2.9.1
 
-2018-09-10 16:49:08,943 - INFO - Parsed the following arguments:
+2018-09-21 06:52:07,373 - INFO - Parsed the following arguments:
 	outdir = ./results/codoncounts
 	ncpus = -1
 	use_existing = yes
 	refseq = ./data/BG505.W6.C2.T332N_env.fasta
 	alignspecs = ['87,375,39,36', '376,666,36,39', '663,954,33,41', '955,1228,33,37', '1228,1527,34,35', '1527,1815,32,39', '1816,2098,36,41']
 	bclen = 8
-	fastqdir = ../FASTQ_files/
+	fastqdir = ./results/FASTQ_files/
 	R2 = None
 	R1trim = [200]
 	R2trim = [170]
@@ -47,28 +47,28 @@
 	name = wt-virus-1b
 	R1 = ['BG505_wt_virus_1b_R1.fastq.gz']
 
-2018-09-10 16:49:09,016 - INFO - Read refseq of 2583 codons from ./data/BG505.W6.C2.T332N_env.fasta
-2018-09-10 16:49:09,024 - INFO - Reads are in these FASTQ pairs:
-	../FASTQ_files/BG505_wt_virus_1b_R1.fastq.gz and ../FASTQ_files/BG505_wt_virus_1b_R2.fastq.gz
+2018-09-21 06:52:07,743 - INFO - Read refseq of 2583 codons from ./data/BG505.W6.C2.T332N_env.fasta
+2018-09-21 06:52:07,752 - INFO - Reads are in these FASTQ pairs:
+	./results/FASTQ_files/BG505_wt_virus_1b_R1.fastq.gz and ./results/FASTQ_files/BG505_wt_virus_1b_R2.fastq.gz
 
-2018-09-10 16:49:09,024 - INFO - Now parsing read pairs...
-2018-09-10 16:49:47,973 - INFO - Reads parsed so far: 500000
-2018-09-10 16:50:26,419 - INFO - Reads parsed so far: 1000000
-2018-09-10 16:51:04,063 - INFO - Reads parsed so far: 1500000
-2018-09-10 16:51:37,942 - INFO - Reads parsed so far: 2000000
-2018-09-10 16:52:14,578 - INFO - Reads parsed so far: 2500000
-2018-09-10 16:52:53,690 - INFO - Reads parsed so far: 3000000
-2018-09-10 16:53:28,925 - INFO - Reads parsed so far: 3500000
-2018-09-10 16:54:04,487 - INFO - Reads parsed so far: 4000000
-2018-09-10 16:54:41,059 - INFO - Reads parsed so far: 4500000
-2018-09-10 16:55:17,675 - INFO - Reads parsed so far: 5000000
-2018-09-10 16:55:51,489 - INFO - Parsed 5475834 reads, found 777768 unique barcodes.
-2018-09-10 16:55:51,506 - INFO - Summary stats on reads:
+2018-09-21 06:52:07,752 - INFO - Now parsing read pairs...
+2018-09-21 06:52:21,409 - INFO - Reads parsed so far: 500000
+2018-09-21 06:52:32,243 - INFO - Reads parsed so far: 1000000
+2018-09-21 06:52:43,171 - INFO - Reads parsed so far: 1500000
+2018-09-21 06:52:53,665 - INFO - Reads parsed so far: 2000000
+2018-09-21 06:53:04,205 - INFO - Reads parsed so far: 2500000
+2018-09-21 06:53:15,388 - INFO - Reads parsed so far: 3000000
+2018-09-21 06:53:25,850 - INFO - Reads parsed so far: 3500000
+2018-09-21 06:53:36,307 - INFO - Reads parsed so far: 4000000
+2018-09-21 06:53:46,819 - INFO - Reads parsed so far: 4500000
+2018-09-21 06:53:57,339 - INFO - Reads parsed so far: 5000000
+2018-09-21 06:54:02,782 - INFO - Parsed 5261125 reads, found 777768 unique barcodes.
+2018-09-21 06:54:02,788 - INFO - Summary stats on reads:
 total  fail filter  low Q barcode
-5475834       214709         572994
-2018-09-10 16:55:51,507 - INFO - Writing these stats to ./results/codoncounts/wt-virus-1b_readstats.csv
+5261125            0         572994
+2018-09-21 06:54:02,788 - INFO - Writing these stats to ./results/codoncounts/wt-virus-1b_readstats.csv
 
-2018-09-10 16:55:52,283 - INFO - Number of reads per barcode:
+2018-09-21 06:54:03,052 - INFO - Number of reads per barcode:
                  number of barcodes
 number of reads                    
 1                            150842
@@ -107,19 +107,19 @@ number of reads
 34                                2
 36                                2
 37                                1
-2018-09-10 16:55:52,290 - INFO - Writing these stats to ./results/codoncounts/wt-virus-1b_readsperbc.csv
+2018-09-21 06:54:03,052 - INFO - Writing these stats to ./results/codoncounts/wt-virus-1b_readsperbc.csv
 
-2018-09-10 16:55:52,296 - INFO - Examining the 777768 barcodes to build and align subamplicons...
-2018-09-10 16:56:45,189 - INFO - Barcodes examined so far: 200000
-2018-09-10 16:57:34,699 - INFO - Barcodes examined so far: 400000
-2018-09-10 16:58:20,777 - INFO - Barcodes examined so far: 600000
-2018-09-10 16:58:37,271 - INFO - Examined all barcodes. Summary stats:
+2018-09-21 06:54:03,056 - INFO - Examining the 777768 barcodes to build and align subamplicons...
+2018-09-21 06:54:17,301 - INFO - Barcodes examined so far: 200000
+2018-09-21 06:54:31,006 - INFO - Barcodes examined so far: 400000
+2018-09-21 06:54:44,721 - INFO - Barcodes examined so far: 600000
+2018-09-21 06:54:49,720 - INFO - Examined all barcodes. Summary stats:
 total  too few reads  not alignable  aligned
 777768         150842          43566   583360
-2018-09-10 16:58:37,277 - INFO - Writing these stats to ./results/codoncounts/wt-virus-1b_bcstats.csv
+2018-09-21 06:54:49,720 - INFO - Writing these stats to ./results/codoncounts/wt-virus-1b_bcstats.csv
 
-2018-09-10 16:58:37,322 - INFO - Filtering to only sites listed in sitemask ./data/sitemask_BG505.txt
-2018-09-10 16:58:37,368 - INFO - Filtered from 861 to 670 sites.
-2018-09-10 16:58:37,368 - INFO - Writing the counts of each codon identity at each site to ./results/codoncounts/wt-virus-1b_codoncounts.csv
+2018-09-21 06:54:49,744 - INFO - Filtering to only sites listed in sitemask ./data/sitemask_BG505.txt
+2018-09-21 06:54:49,760 - INFO - Filtered from 861 to 670 sites.
+2018-09-21 06:54:49,760 - INFO - Writing the counts of each codon identity at each site to ./results/codoncounts/wt-virus-1b_codoncounts.csv
 
-2018-09-10 16:58:37,541 - INFO - Successful completion of dms2_bcsubamp
+2018-09-21 06:54:49,801 - INFO - Successful completion of dms2_bcsubamp

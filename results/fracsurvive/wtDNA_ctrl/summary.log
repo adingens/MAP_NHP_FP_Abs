@@ -1,8 +1,8 @@
-2018-09-11 10:11:25,891 - INFO - Beginning execution of dms2_batch_fracsurvive in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+2018-09-21 07:11:49,935 - INFO - Beginning execution of dms2_batch_fracsurvive in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
 
-2018-09-11 10:11:25,892 - INFO - Progress is being logged to ./results/fracsurvive/wtDNA_ctrl/summary.log
-2018-09-11 10:11:29,459 - INFO - Version information:
-	Time and date: Tue Sep 11 10:11:25 2018
+2018-09-21 07:11:49,935 - INFO - Progress is being logged to ./results/fracsurvive/wtDNA_ctrl/summary.log
+2018-09-21 07:11:50,947 - INFO - Version information:
+	Time and date: Fri Sep 21 07:11:49 2018
 	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
 	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
 	dms_tools2 version: 2.2.9
@@ -22,7 +22,7 @@
 	statsmodels version: 0.9.0
 	rpy2 version: 2.9.1
 
-2018-09-11 10:11:29,459 - INFO - Parsed the following arguments:
+2018-09-21 07:11:50,947 - INFO - Parsed the following arguments:
 	outdir = ./results/fracsurvive/wtDNA_ctrl
 	ncpus = -1
 	use_existing = yes
@@ -35,8 +35,8 @@
 	batchfile = ./results/fracsurvive/wtDNA_ctrl/batch.csv
 	summaryprefix = summary
 
-2018-09-11 10:11:29,459 - INFO - Parsing info from ./results/fracsurvive/wtDNA_ctrl/batch.csv
-2018-09-11 10:11:29,497 - INFO - Read the following sample information:
+2018-09-21 07:11:50,947 - INFO - Parsing info from ./results/fracsurvive/wtDNA_ctrl/batch.csv
+2018-09-21 07:11:50,999 - INFO - Read the following sample information:
 group,name,sel,mock,err,mds_names,libfracsurvive
 106B6,375ug-rep-1b,mut-virus-1b-106B6-375ug,mut-virus-1b,wt-DNA-1,106B6-375ug-375ug-rep-1b,0.159753086
 106B6,375ug-rep-2b,mut-virus-2b-106B6-375ug,mut-virus-2b,wt-DNA-2,106B6-375ug-375ug-rep-2b,0.028992677
@@ -61,4 +61,75 @@ OPV20,1750ug-rep-2c,mut-virus-2c-OPV20-1750ug,mut-virus-2c,wt-DNA-2,OPV20-1750ug
 OPV20,1750ug-rep-3c,mut-virus-3c-OPV20-1750ug,mut-virus-3c,wt-DNA-3,OPV20-1750ug-1750ug-rep-3c,0.0119139
 
 
-2018-09-11 10:11:29,523 - INFO - Output summary files already exist and '--use_existing' is 'yes', so exiting with no further action.
+2018-09-21 07:11:51,060 - INFO - Running dms2_fracsurvive on all samples...
+2018-09-21 07:12:26,465 - INFO - Completed runs of dms2_fracsurvive.
+
+2018-09-21 07:12:26,514 - INFO - Analyzing the fracsurvive values for the 2 samples in group 106B6.
+2018-09-21 07:12:26,514 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_106B6-mutfracsurvivecorr.pdf
+2018-09-21 07:12:27,116 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_106B6-avgfracsurvivecorr.pdf
+2018-09-21 07:12:27,430 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_106B6-maxfracsurvivecorr.pdf
+2018-09-21 07:12:27,753 - INFO - Writing mean mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_106B6-meanmutfracsurvive.csv
+2018-09-21 07:12:27,864 - INFO - Writing mean sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_106B6-meansitefracsurvive.csv
+2018-09-21 07:12:27,885 - INFO - Writing median mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_106B6-medianmutfracsurvive.csv
+2018-09-21 07:12:27,993 - INFO - Writing median sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_106B6-mediansitefracsurvive.csv
+2018-09-21 07:12:28,022 - INFO - Analyzing the fracsurvive values for the 2 samples in group 106E6.
+2018-09-21 07:12:28,022 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_106E6-mutfracsurvivecorr.pdf
+2018-09-21 07:12:28,589 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_106E6-avgfracsurvivecorr.pdf
+2018-09-21 07:12:28,923 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_106E6-maxfracsurvivecorr.pdf
+2018-09-21 07:12:29,333 - INFO - Writing mean mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_106E6-meanmutfracsurvive.csv
+2018-09-21 07:12:29,437 - INFO - Writing mean sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_106E6-meansitefracsurvive.csv
+2018-09-21 07:12:29,462 - INFO - Writing median mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_106E6-medianmutfracsurvive.csv
+2018-09-21 07:12:29,569 - INFO - Writing median sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_106E6-mediansitefracsurvive.csv
+2018-09-21 07:12:29,593 - INFO - Analyzing the fracsurvive values for the 3 samples in group 110D12.
+2018-09-21 07:12:29,593 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_110D12-mutfracsurvivecorr.pdf
+2018-09-21 07:12:30,796 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_110D12-avgfracsurvivecorr.pdf
+2018-09-21 07:12:31,366 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_110D12-maxfracsurvivecorr.pdf
+2018-09-21 07:12:31,955 - INFO - Writing mean mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_110D12-meanmutfracsurvive.csv
+2018-09-21 07:12:32,091 - INFO - Writing mean sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_110D12-meansitefracsurvive.csv
+2018-09-21 07:12:32,110 - INFO - Writing median mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_110D12-medianmutfracsurvive.csv
+2018-09-21 07:12:32,329 - INFO - Writing median sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_110D12-mediansitefracsurvive.csv
+2018-09-21 07:12:32,358 - INFO - Analyzing the fracsurvive values for the 3 samples in group 17D4.
+2018-09-21 07:12:32,358 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_17D4-mutfracsurvivecorr.pdf
+2018-09-21 07:12:33,543 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_17D4-avgfracsurvivecorr.pdf
+2018-09-21 07:12:34,113 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_17D4-maxfracsurvivecorr.pdf
+2018-09-21 07:12:34,693 - INFO - Writing mean mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_17D4-meanmutfracsurvive.csv
+2018-09-21 07:12:34,827 - INFO - Writing mean sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_17D4-meansitefracsurvive.csv
+2018-09-21 07:12:34,850 - INFO - Writing median mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_17D4-medianmutfracsurvive.csv
+2018-09-21 07:12:34,989 - INFO - Writing median sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_17D4-mediansitefracsurvive.csv
+2018-09-21 07:12:35,017 - INFO - Analyzing the fracsurvive values for the 2 samples in group DF1W203.
+2018-09-21 07:12:35,017 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_DF1W203-mutfracsurvivecorr.pdf
+2018-09-21 07:12:35,599 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_DF1W203-avgfracsurvivecorr.pdf
+2018-09-21 07:12:35,994 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_DF1W203-maxfracsurvivecorr.pdf
+2018-09-21 07:12:36,329 - INFO - Writing mean mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_DF1W203-meanmutfracsurvive.csv
+2018-09-21 07:12:36,440 - INFO - Writing mean sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_DF1W203-meansitefracsurvive.csv
+2018-09-21 07:12:36,464 - INFO - Writing median mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_DF1W203-medianmutfracsurvive.csv
+2018-09-21 07:12:36,574 - INFO - Writing median sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_DF1W203-mediansitefracsurvive.csv
+2018-09-21 07:12:36,596 - INFO - Analyzing the fracsurvive values for the 5 samples in group DF1W314.
+2018-09-21 07:12:36,596 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_DF1W314-mutfracsurvivecorr.pdf
+2018-09-21 07:12:39,829 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_DF1W314-avgfracsurvivecorr.pdf
+2018-09-21 07:12:41,218 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_DF1W314-maxfracsurvivecorr.pdf
+2018-09-21 07:12:42,714 - INFO - Writing mean mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_DF1W314-meanmutfracsurvive.csv
+2018-09-21 07:12:42,909 - INFO - Writing mean sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_DF1W314-meansitefracsurvive.csv
+2018-09-21 07:12:42,934 - INFO - Writing median mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_DF1W314-medianmutfracsurvive.csv
+2018-09-21 07:12:43,124 - INFO - Writing median sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_DF1W314-mediansitefracsurvive.csv
+2018-09-21 07:12:43,151 - INFO - Analyzing the fracsurvive values for the 2 samples in group OPV12.
+2018-09-21 07:12:43,152 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_OPV12-mutfracsurvivecorr.pdf
+2018-09-21 07:12:43,724 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_OPV12-avgfracsurvivecorr.pdf
+2018-09-21 07:12:44,024 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_OPV12-maxfracsurvivecorr.pdf
+2018-09-21 07:12:44,342 - INFO - Writing mean mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_OPV12-meanmutfracsurvive.csv
+2018-09-21 07:12:44,444 - INFO - Writing mean sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_OPV12-meansitefracsurvive.csv
+2018-09-21 07:12:44,468 - INFO - Writing median mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_OPV12-medianmutfracsurvive.csv
+2018-09-21 07:12:44,577 - INFO - Writing median sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_OPV12-mediansitefracsurvive.csv
+2018-09-21 07:12:44,606 - INFO - Analyzing the fracsurvive values for the 2 samples in group OPV20.
+2018-09-21 07:12:44,606 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_OPV20-mutfracsurvivecorr.pdf
+2018-09-21 07:12:45,199 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_OPV20-avgfracsurvivecorr.pdf
+2018-09-21 07:12:45,612 - INFO - Plotting sitefracsurvive correlations to ./results/fracsurvive/wtDNA_ctrl/summary_OPV20-maxfracsurvivecorr.pdf
+2018-09-21 07:12:45,922 - INFO - Writing mean mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_OPV20-meanmutfracsurvive.csv
+2018-09-21 07:12:46,029 - INFO - Writing mean sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_OPV20-meansitefracsurvive.csv
+2018-09-21 07:12:46,053 - INFO - Writing median mutfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_OPV20-medianmutfracsurvive.csv
+2018-09-21 07:12:46,162 - INFO - Writing median sitefracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_OPV20-mediansitefracsurvive.csv
+2018-09-21 07:12:46,187 - INFO - Plotting mean avgfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_meanavgfracsurvive.pdf
+2018-09-21 07:12:47,196 - INFO - Plotting mean maxfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_meanmaxfracsurvive.pdf
+2018-09-21 07:12:48,209 - INFO - Plotting median avgfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_medianavgfracsurvive.pdf
+2018-09-21 07:12:49,204 - INFO - Plotting median maxfracsurvive to ./results/fracsurvive/wtDNA_ctrl/summary_medianmaxfracsurvive.pdf
+2018-09-21 07:12:50,231 - INFO - Successful completion of dms2_batch_fracsurvive

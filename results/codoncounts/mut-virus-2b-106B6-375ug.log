@@ -1,8 +1,8 @@
-2018-09-10 18:26:25,478 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+2018-09-21 06:58:16,311 - INFO - Beginning execution of dms2_bcsubamp in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
 
-2018-09-10 18:26:25,478 - INFO - Progress is being logged to ./results/codoncounts/mut-virus-2b-106B6-375ug.log
-2018-09-10 18:26:32,562 - INFO - Version information:
-	Time and date: Mon Sep 10 18:26:25 2018
+2018-09-21 06:58:16,311 - INFO - Progress is being logged to ./results/codoncounts/mut-virus-2b-106B6-375ug.log
+2018-09-21 06:58:24,647 - INFO - Version information:
+	Time and date: Fri Sep 21 06:58:16 2018
 	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
 	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
 	dms_tools2 version: 2.2.9
@@ -22,14 +22,14 @@
 	statsmodels version: 0.9.0
 	rpy2 version: 2.9.1
 
-2018-09-10 18:26:32,563 - INFO - Parsed the following arguments:
+2018-09-21 06:58:24,648 - INFO - Parsed the following arguments:
 	outdir = ./results/codoncounts
 	ncpus = -1
 	use_existing = yes
 	refseq = ./data/BG505.W6.C2.T332N_env.fasta
 	alignspecs = ['87,375,39,36', '376,666,36,39', '663,954,33,41', '955,1228,33,37', '1228,1527,34,35', '1527,1815,32,39', '1816,2098,36,41']
 	bclen = 8
-	fastqdir = ../FASTQ_files/
+	fastqdir = ./results/FASTQ_files/
 	R2 = None
 	R1trim = [200]
 	R2trim = [170]
@@ -47,28 +47,28 @@
 	name = mut-virus-2b-106B6-375ug
 	R1 = ['BG505_mut_virus_2b_106B6_375ug_R1.fastq.gz']
 
-2018-09-10 18:26:32,688 - INFO - Read refseq of 2583 codons from ./data/BG505.W6.C2.T332N_env.fasta
-2018-09-10 18:26:32,697 - INFO - Reads are in these FASTQ pairs:
-	../FASTQ_files/BG505_mut_virus_2b_106B6_375ug_R1.fastq.gz and ../FASTQ_files/BG505_mut_virus_2b_106B6_375ug_R2.fastq.gz
+2018-09-21 06:58:24,717 - INFO - Read refseq of 2583 codons from ./data/BG505.W6.C2.T332N_env.fasta
+2018-09-21 06:58:24,721 - INFO - Reads are in these FASTQ pairs:
+	./results/FASTQ_files/BG505_mut_virus_2b_106B6_375ug_R1.fastq.gz and ./results/FASTQ_files/BG505_mut_virus_2b_106B6_375ug_R2.fastq.gz
 
-2018-09-10 18:26:32,697 - INFO - Now parsing read pairs...
-2018-09-10 18:27:07,193 - INFO - Reads parsed so far: 500000
-2018-09-10 18:27:35,114 - INFO - Reads parsed so far: 1000000
-2018-09-10 18:28:08,382 - INFO - Reads parsed so far: 1500000
-2018-09-10 18:28:38,362 - INFO - Reads parsed so far: 2000000
-2018-09-10 18:29:07,143 - INFO - Reads parsed so far: 2500000
-2018-09-10 18:29:33,169 - INFO - Reads parsed so far: 3000000
-2018-09-10 18:30:02,528 - INFO - Reads parsed so far: 3500000
-2018-09-10 18:30:23,171 - INFO - Reads parsed so far: 4000000
-2018-09-10 18:30:43,386 - INFO - Reads parsed so far: 4500000
-2018-09-10 18:30:58,973 - INFO - Reads parsed so far: 5000000
-2018-09-10 18:31:07,673 - INFO - Parsed 5452501 reads, found 2035126 unique barcodes.
-2018-09-10 18:31:07,688 - INFO - Summary stats on reads:
+2018-09-21 06:58:24,721 - INFO - Now parsing read pairs...
+2018-09-21 06:58:36,660 - INFO - Reads parsed so far: 500000
+2018-09-21 06:58:47,904 - INFO - Reads parsed so far: 1000000
+2018-09-21 06:58:58,930 - INFO - Reads parsed so far: 1500000
+2018-09-21 06:59:09,997 - INFO - Reads parsed so far: 2000000
+2018-09-21 06:59:21,422 - INFO - Reads parsed so far: 2500000
+2018-09-21 06:59:31,835 - INFO - Reads parsed so far: 3000000
+2018-09-21 06:59:42,164 - INFO - Reads parsed so far: 3500000
+2018-09-21 06:59:53,785 - INFO - Reads parsed so far: 4000000
+2018-09-21 07:00:04,212 - INFO - Reads parsed so far: 4500000
+2018-09-21 07:00:14,775 - INFO - Reads parsed so far: 5000000
+2018-09-21 07:00:21,073 - INFO - Parsed 5282294 reads, found 2035126 unique barcodes.
+2018-09-21 07:00:21,087 - INFO - Summary stats on reads:
 total  fail filter  low Q barcode
-5452501       170207         359862
-2018-09-10 18:31:07,688 - INFO - Writing these stats to ./results/codoncounts/mut-virus-2b-106B6-375ug_readstats.csv
+5282294            0         359862
+2018-09-21 07:00:21,087 - INFO - Writing these stats to ./results/codoncounts/mut-virus-2b-106B6-375ug_readstats.csv
 
-2018-09-10 18:31:08,354 - INFO - Number of reads per barcode:
+2018-09-21 07:00:21,834 - INFO - Number of reads per barcode:
                  number of barcodes
 number of reads                    
 1                            878964
@@ -89,26 +89,26 @@ number of reads
 16                                7
 17                                3
 19                                1
-2018-09-10 18:31:08,354 - INFO - Writing these stats to ./results/codoncounts/mut-virus-2b-106B6-375ug_readsperbc.csv
+2018-09-21 07:00:21,835 - INFO - Writing these stats to ./results/codoncounts/mut-virus-2b-106B6-375ug_readsperbc.csv
 
-2018-09-10 18:31:08,358 - INFO - Examining the 2035126 barcodes to build and align subamplicons...
-2018-09-10 18:31:18,188 - INFO - Barcodes examined so far: 200000
-2018-09-10 18:31:27,437 - INFO - Barcodes examined so far: 400000
-2018-09-10 18:31:36,591 - INFO - Barcodes examined so far: 600000
-2018-09-10 18:31:45,330 - INFO - Barcodes examined so far: 800000
-2018-09-10 18:31:53,029 - INFO - Barcodes examined so far: 1000000
-2018-09-10 18:31:59,985 - INFO - Barcodes examined so far: 1200000
-2018-09-10 18:32:06,019 - INFO - Barcodes examined so far: 1400000
-2018-09-10 18:32:11,049 - INFO - Barcodes examined so far: 1600000
-2018-09-10 18:32:14,500 - INFO - Barcodes examined so far: 1800000
-2018-09-10 18:32:15,999 - INFO - Barcodes examined so far: 2000000
-2018-09-10 18:32:16,061 - INFO - Examined all barcodes. Summary stats:
+2018-09-21 07:00:21,840 - INFO - Examining the 2035126 barcodes to build and align subamplicons...
+2018-09-21 07:00:32,868 - INFO - Barcodes examined so far: 200000
+2018-09-21 07:00:43,462 - INFO - Barcodes examined so far: 400000
+2018-09-21 07:00:53,822 - INFO - Barcodes examined so far: 600000
+2018-09-21 07:01:03,450 - INFO - Barcodes examined so far: 800000
+2018-09-21 07:01:12,942 - INFO - Barcodes examined so far: 1000000
+2018-09-21 07:01:21,869 - INFO - Barcodes examined so far: 1200000
+2018-09-21 07:01:29,434 - INFO - Barcodes examined so far: 1400000
+2018-09-21 07:01:35,451 - INFO - Barcodes examined so far: 1600000
+2018-09-21 07:01:39,500 - INFO - Barcodes examined so far: 1800000
+2018-09-21 07:01:41,276 - INFO - Barcodes examined so far: 2000000
+2018-09-21 07:01:41,354 - INFO - Examined all barcodes. Summary stats:
 total  too few reads  not alignable  aligned
 2035126         878964         120989  1035173
-2018-09-10 18:32:16,061 - INFO - Writing these stats to ./results/codoncounts/mut-virus-2b-106B6-375ug_bcstats.csv
+2018-09-21 07:01:41,355 - INFO - Writing these stats to ./results/codoncounts/mut-virus-2b-106B6-375ug_bcstats.csv
 
-2018-09-10 18:32:16,086 - INFO - Filtering to only sites listed in sitemask ./data/sitemask_BG505.txt
-2018-09-10 18:32:16,106 - INFO - Filtered from 861 to 670 sites.
-2018-09-10 18:32:16,106 - INFO - Writing the counts of each codon identity at each site to ./results/codoncounts/mut-virus-2b-106B6-375ug_codoncounts.csv
+2018-09-21 07:01:41,388 - INFO - Filtering to only sites listed in sitemask ./data/sitemask_BG505.txt
+2018-09-21 07:01:41,420 - INFO - Filtered from 861 to 670 sites.
+2018-09-21 07:01:41,421 - INFO - Writing the counts of each codon identity at each site to ./results/codoncounts/mut-virus-2b-106B6-375ug_codoncounts.csv
 
-2018-09-10 18:32:16,147 - INFO - Successful completion of dms2_bcsubamp
+2018-09-21 07:01:41,462 - INFO - Successful completion of dms2_bcsubamp

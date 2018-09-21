@@ -1,8 +1,8 @@
-2018-09-10 20:04:04,046 - INFO - Beginning execution of dms2_fracsurvive in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+2018-09-21 07:13:03,819 - INFO - Beginning execution of dms2_fracsurvive in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
 
-2018-09-10 20:04:04,046 - INFO - Progress is being logged to ./results/fracsurviveaboveavg/wtDNA_ctrl/17D4-5000ug-rep-3c.log
-2018-09-10 20:04:11,402 - INFO - Version information:
-	Time and date: Mon Sep 10 20:04:04 2018
+2018-09-21 07:13:03,819 - INFO - Progress is being logged to ./results/fracsurviveaboveavg/wtDNA_ctrl/17D4-5000ug-rep-3c.log
+2018-09-21 07:13:17,559 - INFO - Version information:
+	Time and date: Fri Sep 21 07:13:03 2018
 	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
 	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
 	dms_tools2 version: 2.2.9
@@ -22,9 +22,9 @@
 	statsmodels version: 0.9.0
 	rpy2 version: 2.9.1
 
-2018-09-10 20:04:11,403 - INFO - Parsed the following arguments:
+2018-09-21 07:13:17,561 - INFO - Parsed the following arguments:
 	outdir = ./results/fracsurviveaboveavg/wtDNA_ctrl
-	ncpus = 2
+	ncpus = 1
 	use_existing = yes
 	indir = ./results/renumberedcounts
 	chartype = codon_to_aa
@@ -38,12 +38,12 @@
 	libfracsurvive = 0.051157213
 	err = wt-DNA-3
 
-2018-09-10 20:04:11,406 - INFO - Reading selected sample counts from mut-virus-3c-17D4-5000ug
-2018-09-10 20:04:11,434 - INFO - Reading mock-selected sample counts from mut-virus-3c
-2018-09-10 20:04:11,443 - INFO - Reading error-control sample counts from wt-DNA-3
-2018-09-10 20:04:11,454 - INFO - Computing fracsurvive for each mutation...
-2018-09-10 20:04:11,454 - INFO - These are the fracsurvive **above** the library average of 0.051157213
-2018-09-10 20:04:16,828 - INFO - Mutations with largest mutfracsurvive:
+2018-09-21 07:13:17,568 - INFO - Reading selected sample counts from mut-virus-3c-17D4-5000ug
+2018-09-21 07:13:17,616 - INFO - Reading mock-selected sample counts from mut-virus-3c
+2018-09-21 07:13:17,635 - INFO - Reading error-control sample counts from wt-DNA-3
+2018-09-21 07:13:17,660 - INFO - Computing fracsurvive for each mutation...
+2018-09-21 07:13:17,660 - INFO - These are the fracsurvive **above** the library average of 0.051157213
+2018-09-21 07:13:22,771 - INFO - Mutations with largest mutfracsurvive:
 site wildtype mutation  mutfracsurvive
 513        V        F            1.03
 518        V        G            0.62
@@ -56,9 +56,9 @@ site wildtype mutation  mutfracsurvive
 512        A        E            0.37
 519        F        I            0.37
 
-2018-09-10 20:04:16,829 - INFO - Writing to ./results/fracsurviveaboveavg/wtDNA_ctrl/17D4-5000ug-rep-3c_mutfracsurvive.csv
-2018-09-10 20:04:16,862 - INFO - Computing sitefracsurvive...
-2018-09-10 20:04:16,879 - INFO - Sites with largest avgfracsurvive:
+2018-09-21 07:13:22,784 - INFO - Writing to ./results/fracsurviveaboveavg/wtDNA_ctrl/17D4-5000ug-rep-3c_mutfracsurvive.csv
+2018-09-21 07:13:22,887 - INFO - Computing sitefracsurvive...
+2018-09-21 07:13:22,938 - INFO - Sites with largest avgfracsurvive:
 site  avgfracsurvive  maxfracsurvive
 514            0.19            0.47
 512            0.15            0.45
@@ -71,5 +71,5 @@ site  avgfracsurvive  maxfracsurvive
 524            0.08            0.21
 229            0.07            0.19
 
-2018-09-10 20:04:16,879 - INFO - Writing to ./results/fracsurviveaboveavg/wtDNA_ctrl/17D4-5000ug-rep-3c_sitefracsurvive.csv
-2018-09-10 20:04:16,888 - INFO - Successful completion of dms2_fracsurvive
+2018-09-21 07:13:22,938 - INFO - Writing to ./results/fracsurviveaboveavg/wtDNA_ctrl/17D4-5000ug-rep-3c_sitefracsurvive.csv
+2018-09-21 07:13:22,960 - INFO - Successful completion of dms2_fracsurvive

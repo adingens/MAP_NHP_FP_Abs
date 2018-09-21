@@ -1,8 +1,8 @@
-2018-09-10 20:05:14,673 - INFO - Beginning execution of dms2_logoplot in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+2018-09-21 07:14:17,855 - INFO - Beginning execution of dms2_logoplot in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
 
-2018-09-10 20:05:14,674 - INFO - Progress is being logged to ./results/fracsurvive/wtDNA_ctrl/106B6-median.log
-2018-09-10 20:05:16,035 - INFO - Version information:
-	Time and date: Mon Sep 10 20:05:14 2018
+2018-09-21 07:14:17,856 - INFO - Progress is being logged to ./results/fracsurvive/wtDNA_ctrl/106B6-median.log
+2018-09-21 07:14:19,648 - INFO - Version information:
+	Time and date: Fri Sep 21 07:14:17 2018
 	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
 	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
 	dms_tools2 version: 2.2.9
@@ -22,7 +22,7 @@
 	statsmodels version: 0.9.0
 	rpy2 version: 2.9.1
 
-2018-09-10 20:05:16,035 - INFO - Parsed the following arguments:
+2018-09-21 07:14:19,648 - INFO - Parsed the following arguments:
 	outdir = ./results/fracsurvive/wtDNA_ctrl
 	ncpus = -1
 	use_existing = yes
@@ -51,13 +51,13 @@
 	ignore_extracols = no
 	sepline = no
 
-2018-09-10 20:05:16,038 - INFO - Reading fracsurvive from file ./results/fracsurvive/wtDNA_ctrl/summary_106B6-medianmutfracsurvive.csv...
-2018-09-10 20:05:16,070 - INFO - Read data for 670 sites.
+2018-09-21 07:14:19,652 - INFO - Reading fracsurvive from file ./results/fracsurvive/wtDNA_ctrl/summary_106B6-medianmutfracsurvive.csv...
+2018-09-21 07:14:19,681 - INFO - Read data for 670 sites.
 
-2018-09-10 20:05:16,113 - INFO - Reading overlay for wildtype from ./results/fracsurvive/wtDNA_ctrl/summary_106B6-medianmutfracsurvive.csv...
-2018-09-10 20:05:16,177 - INFO - Read overlay for 670 sites.
+2018-09-21 07:14:19,717 - INFO - Reading overlay for wildtype from ./results/fracsurvive/wtDNA_ctrl/summary_106B6-medianmutfracsurvive.csv...
+2018-09-21 07:14:19,788 - INFO - Read overlay for 670 sites.
 
-2018-09-10 20:05:16,177 - INFO - Making logo plot ./results/fracsurvive/wtDNA_ctrl/106B6-median_fracsurvive.pdf...
-2018-09-10 20:05:32,875 - INFO - Successfully created logo plot.
+2018-09-21 07:14:19,788 - INFO - Making logo plot ./results/fracsurvive/wtDNA_ctrl/106B6-median_fracsurvive.pdf...
+2018-09-21 07:14:34,498 - INFO - Successfully created logo plot.
 
-2018-09-10 20:05:32,876 - INFO - Successful completion of dms2_logoplot
+2018-09-21 07:14:34,499 - INFO - Successful completion of dms2_logoplot

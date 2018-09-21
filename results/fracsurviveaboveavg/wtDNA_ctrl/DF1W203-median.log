@@ -1,8 +1,8 @@
-2018-09-10 20:07:02,352 - INFO - Beginning execution of dms2_logoplot in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+2018-09-21 07:16:12,599 - INFO - Beginning execution of dms2_logoplot in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
 
-2018-09-10 20:07:02,352 - INFO - Progress is being logged to ./results/fracsurviveaboveavg/wtDNA_ctrl/DF1W203-median.log
-2018-09-10 20:07:03,588 - INFO - Version information:
-	Time and date: Mon Sep 10 20:07:02 2018
+2018-09-21 07:16:12,599 - INFO - Progress is being logged to ./results/fracsurviveaboveavg/wtDNA_ctrl/DF1W203-median.log
+2018-09-21 07:16:16,680 - INFO - Version information:
+	Time and date: Fri Sep 21 07:16:12 2018
 	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
 	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
 	dms_tools2 version: 2.2.9
@@ -22,7 +22,7 @@
 	statsmodels version: 0.9.0
 	rpy2 version: 2.9.1
 
-2018-09-10 20:07:03,588 - INFO - Parsed the following arguments:
+2018-09-21 07:16:16,681 - INFO - Parsed the following arguments:
 	outdir = ./results/fracsurviveaboveavg/wtDNA_ctrl
 	ncpus = -1
 	use_existing = yes
@@ -51,13 +51,13 @@
 	ignore_extracols = no
 	sepline = no
 
-2018-09-10 20:07:03,590 - INFO - Reading fracsurvive from file ./results/fracsurviveaboveavg/wtDNA_ctrl/summary_DF1W203-medianmutfracsurvive.csv...
-2018-09-10 20:07:03,616 - INFO - Read data for 670 sites.
+2018-09-21 07:16:16,686 - INFO - Reading fracsurvive from file ./results/fracsurviveaboveavg/wtDNA_ctrl/summary_DF1W203-medianmutfracsurvive.csv...
+2018-09-21 07:16:16,742 - INFO - Read data for 670 sites.
 
-2018-09-10 20:07:03,658 - INFO - Reading overlay for wildtype from ./results/fracsurviveaboveavg/wtDNA_ctrl/summary_DF1W203-medianmutfracsurvive.csv...
-2018-09-10 20:07:03,723 - INFO - Read overlay for 670 sites.
+2018-09-21 07:16:16,778 - INFO - Reading overlay for wildtype from ./results/fracsurviveaboveavg/wtDNA_ctrl/summary_DF1W203-medianmutfracsurvive.csv...
+2018-09-21 07:16:16,844 - INFO - Read overlay for 670 sites.
 
-2018-09-10 20:07:03,724 - INFO - Making logo plot ./results/fracsurviveaboveavg/wtDNA_ctrl/DF1W203-median_fracsurvive.pdf...
-2018-09-10 20:07:11,417 - INFO - Successfully created logo plot.
+2018-09-21 07:16:16,844 - INFO - Making logo plot ./results/fracsurviveaboveavg/wtDNA_ctrl/DF1W203-median_fracsurvive.pdf...
+2018-09-21 07:16:23,618 - INFO - Successfully created logo plot.
 
-2018-09-10 20:07:11,417 - INFO - Successful completion of dms2_logoplot
+2018-09-21 07:16:23,619 - INFO - Successful completion of dms2_logoplot

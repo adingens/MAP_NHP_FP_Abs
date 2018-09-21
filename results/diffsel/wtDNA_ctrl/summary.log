@@ -1,8 +1,8 @@
-2018-09-10 19:42:44,044 - INFO - Beginning execution of dms2_batch_diffsel in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+2018-09-21 07:10:15,019 - INFO - Beginning execution of dms2_batch_diffsel in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
 
-2018-09-10 19:42:44,044 - INFO - Progress is being logged to ./results/diffsel/wtDNA_ctrl/summary.log
-2018-09-10 19:42:44,920 - INFO - Version information:
-	Time and date: Mon Sep 10 19:42:44 2018
+2018-09-21 07:10:15,019 - INFO - Progress is being logged to ./results/diffsel/wtDNA_ctrl/summary.log
+2018-09-21 07:10:16,044 - INFO - Version information:
+	Time and date: Fri Sep 21 07:10:15 2018
 	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
 	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
 	dms_tools2 version: 2.2.9
@@ -22,7 +22,7 @@
 	statsmodels version: 0.9.0
 	rpy2 version: 2.9.1
 
-2018-09-10 19:42:44,920 - INFO - Parsed the following arguments:
+2018-09-21 07:10:16,044 - INFO - Parsed the following arguments:
 	outdir = ./results/diffsel/wtDNA_ctrl
 	ncpus = -1
 	use_existing = yes
@@ -34,8 +34,8 @@
 	batchfile = ./results/diffsel/wtDNA_ctrl/batch.csv
 	summaryprefix = summary
 
-2018-09-10 19:42:44,921 - INFO - Parsing info from ./results/diffsel/wtDNA_ctrl/batch.csv
-2018-09-10 19:42:44,955 - INFO - Read the following sample information:
+2018-09-21 07:10:16,044 - INFO - Parsing info from ./results/diffsel/wtDNA_ctrl/batch.csv
+2018-09-21 07:10:16,090 - INFO - Read the following sample information:
 group,name,sel,mock,err,mds_names,libfracsurvive
 106B6,375ug-rep-1b,mut-virus-1b-106B6-375ug,mut-virus-1b,wt-DNA-1,106B6-375ug-375ug-rep-1b,0.159753086
 106B6,375ug-rep-2b,mut-virus-2b-106B6-375ug,mut-virus-2b,wt-DNA-2,106B6-375ug-375ug-rep-2b,0.028992677
@@ -60,87 +60,87 @@ OPV20,1750ug-rep-2c,mut-virus-2c-OPV20-1750ug,mut-virus-2c,wt-DNA-2,OPV20-1750ug
 OPV20,1750ug-rep-3c,mut-virus-3c-OPV20-1750ug,mut-virus-3c,wt-DNA-3,OPV20-1750ug-1750ug-rep-3c,0.0119139
 
 
-2018-09-10 19:42:44,985 - INFO - Running dms2_diffsel on all samples...
-2018-09-10 19:43:00,259 - INFO - Completed runs of dms2_diffsel.
+2018-09-21 07:10:16,161 - INFO - Running dms2_diffsel on all samples...
+2018-09-21 07:10:52,056 - INFO - Completed runs of dms2_diffsel.
 
-2018-09-10 19:43:00,283 - INFO - Analyzing the diffsel values for the 2 samples in group 106B6.
-2018-09-10 19:43:00,283 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106B6-mutdiffselcorr.pdf
-2018-09-10 19:43:01,249 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106B6-absolutesitediffselcorr.pdf
-2018-09-10 19:43:01,583 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106B6-positivesitediffselcorr.pdf
-2018-09-10 19:43:01,912 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106B6-maxmutdiffselcorr.pdf
-2018-09-10 19:43:02,237 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_106B6-meanmutdiffsel.csv
-2018-09-10 19:43:02,338 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_106B6-meansitediffsel.csv
-2018-09-10 19:43:02,374 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_106B6-medianmutdiffsel.csv
-2018-09-10 19:43:02,477 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_106B6-mediansitediffsel.csv
-2018-09-10 19:43:02,516 - INFO - Analyzing the diffsel values for the 2 samples in group 106E6.
-2018-09-10 19:43:02,516 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106E6-mutdiffselcorr.pdf
-2018-09-10 19:43:03,097 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106E6-absolutesitediffselcorr.pdf
-2018-09-10 19:43:03,551 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106E6-positivesitediffselcorr.pdf
-2018-09-10 19:43:03,904 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106E6-maxmutdiffselcorr.pdf
-2018-09-10 19:43:04,262 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_106E6-meanmutdiffsel.csv
-2018-09-10 19:43:04,371 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_106E6-meansitediffsel.csv
-2018-09-10 19:43:04,402 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_106E6-medianmutdiffsel.csv
-2018-09-10 19:43:04,516 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_106E6-mediansitediffsel.csv
-2018-09-10 19:43:04,557 - INFO - Analyzing the diffsel values for the 3 samples in group 110D12.
-2018-09-10 19:43:04,557 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_110D12-mutdiffselcorr.pdf
-2018-09-10 19:43:05,842 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_110D12-absolutesitediffselcorr.pdf
-2018-09-10 19:43:06,557 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_110D12-positivesitediffselcorr.pdf
-2018-09-10 19:43:07,163 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_110D12-maxmutdiffselcorr.pdf
-2018-09-10 19:43:07,844 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_110D12-meanmutdiffsel.csv
-2018-09-10 19:43:08,005 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_110D12-meansitediffsel.csv
-2018-09-10 19:43:08,049 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_110D12-medianmutdiffsel.csv
-2018-09-10 19:43:08,190 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_110D12-mediansitediffsel.csv
-2018-09-10 19:43:08,226 - INFO - Analyzing the diffsel values for the 3 samples in group 17D4.
-2018-09-10 19:43:08,226 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_17D4-mutdiffselcorr.pdf
-2018-09-10 19:43:09,478 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_17D4-absolutesitediffselcorr.pdf
-2018-09-10 19:43:10,172 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_17D4-positivesitediffselcorr.pdf
-2018-09-10 19:43:10,797 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_17D4-maxmutdiffselcorr.pdf
-2018-09-10 19:43:11,469 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_17D4-meanmutdiffsel.csv
-2018-09-10 19:43:11,627 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_17D4-meansitediffsel.csv
-2018-09-10 19:43:11,666 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_17D4-medianmutdiffsel.csv
-2018-09-10 19:43:11,830 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_17D4-mediansitediffsel.csv
-2018-09-10 19:43:11,867 - INFO - Analyzing the diffsel values for the 2 samples in group DF1W203.
-2018-09-10 19:43:11,867 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-mutdiffselcorr.pdf
-2018-09-10 19:43:12,523 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-absolutesitediffselcorr.pdf
-2018-09-10 19:43:12,953 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-positivesitediffselcorr.pdf
-2018-09-10 19:43:13,335 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-maxmutdiffselcorr.pdf
-2018-09-10 19:43:13,690 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-meanmutdiffsel.csv
-2018-09-10 19:43:13,793 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-meansitediffsel.csv
-2018-09-10 19:43:13,828 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-medianmutdiffsel.csv
-2018-09-10 19:43:13,974 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-mediansitediffsel.csv
-2018-09-10 19:43:14,004 - INFO - Analyzing the diffsel values for the 5 samples in group DF1W314.
-2018-09-10 19:43:14,004 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-mutdiffselcorr.pdf
-2018-09-10 19:43:17,342 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-absolutesitediffselcorr.pdf
-2018-09-10 19:43:18,805 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-positivesitediffselcorr.pdf
-2018-09-10 19:43:20,393 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-maxmutdiffselcorr.pdf
-2018-09-10 19:43:21,919 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-meanmutdiffsel.csv
-2018-09-10 19:43:22,136 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-meansitediffsel.csv
-2018-09-10 19:43:22,172 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-medianmutdiffsel.csv
-2018-09-10 19:43:22,484 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-mediansitediffsel.csv
-2018-09-10 19:43:22,527 - INFO - Analyzing the diffsel values for the 2 samples in group OPV12.
-2018-09-10 19:43:22,527 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV12-mutdiffselcorr.pdf
-2018-09-10 19:43:23,113 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV12-absolutesitediffselcorr.pdf
-2018-09-10 19:43:23,482 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV12-positivesitediffselcorr.pdf
-2018-09-10 19:43:23,806 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV12-maxmutdiffselcorr.pdf
-2018-09-10 19:43:24,156 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV12-meanmutdiffsel.csv
-2018-09-10 19:43:24,286 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV12-meansitediffsel.csv
-2018-09-10 19:43:24,322 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV12-medianmutdiffsel.csv
-2018-09-10 19:43:24,450 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV12-mediansitediffsel.csv
-2018-09-10 19:43:24,489 - INFO - Analyzing the diffsel values for the 2 samples in group OPV20.
-2018-09-10 19:43:24,490 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV20-mutdiffselcorr.pdf
-2018-09-10 19:43:25,106 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV20-absolutesitediffselcorr.pdf
-2018-09-10 19:43:25,553 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV20-positivesitediffselcorr.pdf
-2018-09-10 19:43:25,930 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV20-maxmutdiffselcorr.pdf
-2018-09-10 19:43:26,292 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV20-meanmutdiffsel.csv
-2018-09-10 19:43:26,424 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV20-meansitediffsel.csv
-2018-09-10 19:43:26,460 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV20-medianmutdiffsel.csv
-2018-09-10 19:43:26,591 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV20-mediansitediffsel.csv
-2018-09-10 19:43:26,625 - INFO - Plotting mean positive diffsel to ./results/diffsel/wtDNA_ctrl/summary_meanpositivediffsel.pdf
-2018-09-10 19:43:27,770 - INFO - Plotting mean total diffsel to ./results/diffsel/wtDNA_ctrl/summary_meantotaldiffsel.pdf
-2018-09-10 19:43:29,124 - INFO - Plotting mean max diffsel to ./results/diffsel/wtDNA_ctrl/summary_meanmaxdiffsel.pdf
-2018-09-10 19:43:30,240 - INFO - Plotting mean minmax diffsel to ./results/diffsel/wtDNA_ctrl/summary_meanminmaxdiffsel.pdf
-2018-09-10 19:43:31,832 - INFO - Plotting median positive diffsel to ./results/diffsel/wtDNA_ctrl/summary_medianpositivediffsel.pdf
-2018-09-10 19:43:32,959 - INFO - Plotting median total diffsel to ./results/diffsel/wtDNA_ctrl/summary_mediantotaldiffsel.pdf
-2018-09-10 19:43:34,364 - INFO - Plotting median max diffsel to ./results/diffsel/wtDNA_ctrl/summary_medianmaxdiffsel.pdf
-2018-09-10 19:43:35,447 - INFO - Plotting median minmax diffsel to ./results/diffsel/wtDNA_ctrl/summary_medianminmaxdiffsel.pdf
-2018-09-10 19:43:36,945 - INFO - Successful completion of dms2_batch_diffsel
+2018-09-21 07:10:52,098 - INFO - Analyzing the diffsel values for the 2 samples in group 106B6.
+2018-09-21 07:10:52,099 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106B6-mutdiffselcorr.pdf
+2018-09-21 07:10:53,071 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106B6-absolutesitediffselcorr.pdf
+2018-09-21 07:10:53,417 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106B6-positivesitediffselcorr.pdf
+2018-09-21 07:10:53,745 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106B6-maxmutdiffselcorr.pdf
+2018-09-21 07:10:54,073 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_106B6-meanmutdiffsel.csv
+2018-09-21 07:10:54,187 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_106B6-meansitediffsel.csv
+2018-09-21 07:10:54,225 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_106B6-medianmutdiffsel.csv
+2018-09-21 07:10:54,335 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_106B6-mediansitediffsel.csv
+2018-09-21 07:10:54,368 - INFO - Analyzing the diffsel values for the 2 samples in group 106E6.
+2018-09-21 07:10:54,368 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106E6-mutdiffselcorr.pdf
+2018-09-21 07:10:54,950 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106E6-absolutesitediffselcorr.pdf
+2018-09-21 07:10:55,372 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106E6-positivesitediffselcorr.pdf
+2018-09-21 07:10:55,724 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_106E6-maxmutdiffselcorr.pdf
+2018-09-21 07:10:56,051 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_106E6-meanmutdiffsel.csv
+2018-09-21 07:10:56,161 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_106E6-meansitediffsel.csv
+2018-09-21 07:10:56,190 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_106E6-medianmutdiffsel.csv
+2018-09-21 07:10:56,293 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_106E6-mediansitediffsel.csv
+2018-09-21 07:10:56,326 - INFO - Analyzing the diffsel values for the 3 samples in group 110D12.
+2018-09-21 07:10:56,326 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_110D12-mutdiffselcorr.pdf
+2018-09-21 07:10:57,547 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_110D12-absolutesitediffselcorr.pdf
+2018-09-21 07:10:58,212 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_110D12-positivesitediffselcorr.pdf
+2018-09-21 07:10:58,781 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_110D12-maxmutdiffselcorr.pdf
+2018-09-21 07:10:59,382 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_110D12-meanmutdiffsel.csv
+2018-09-21 07:10:59,520 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_110D12-meansitediffsel.csv
+2018-09-21 07:10:59,553 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_110D12-medianmutdiffsel.csv
+2018-09-21 07:10:59,698 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_110D12-mediansitediffsel.csv
+2018-09-21 07:10:59,734 - INFO - Analyzing the diffsel values for the 3 samples in group 17D4.
+2018-09-21 07:10:59,734 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_17D4-mutdiffselcorr.pdf
+2018-09-21 07:11:00,954 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_17D4-absolutesitediffselcorr.pdf
+2018-09-21 07:11:01,628 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_17D4-positivesitediffselcorr.pdf
+2018-09-21 07:11:02,232 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_17D4-maxmutdiffselcorr.pdf
+2018-09-21 07:11:02,838 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_17D4-meanmutdiffsel.csv
+2018-09-21 07:11:02,974 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_17D4-meansitediffsel.csv
+2018-09-21 07:11:03,006 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_17D4-medianmutdiffsel.csv
+2018-09-21 07:11:03,148 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_17D4-mediansitediffsel.csv
+2018-09-21 07:11:03,188 - INFO - Analyzing the diffsel values for the 2 samples in group DF1W203.
+2018-09-21 07:11:03,188 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-mutdiffselcorr.pdf
+2018-09-21 07:11:03,776 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-absolutesitediffselcorr.pdf
+2018-09-21 07:11:04,210 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-positivesitediffselcorr.pdf
+2018-09-21 07:11:04,552 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-maxmutdiffselcorr.pdf
+2018-09-21 07:11:04,895 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-meanmutdiffsel.csv
+2018-09-21 07:11:05,006 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-meansitediffsel.csv
+2018-09-21 07:11:05,044 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-medianmutdiffsel.csv
+2018-09-21 07:11:05,147 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W203-mediansitediffsel.csv
+2018-09-21 07:11:05,181 - INFO - Analyzing the diffsel values for the 5 samples in group DF1W314.
+2018-09-21 07:11:05,181 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-mutdiffselcorr.pdf
+2018-09-21 07:11:08,356 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-absolutesitediffselcorr.pdf
+2018-09-21 07:11:09,758 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-positivesitediffselcorr.pdf
+2018-09-21 07:11:11,258 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-maxmutdiffselcorr.pdf
+2018-09-21 07:11:12,641 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-meanmutdiffsel.csv
+2018-09-21 07:11:12,849 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-meansitediffsel.csv
+2018-09-21 07:11:12,884 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-medianmutdiffsel.csv
+2018-09-21 07:11:13,175 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_DF1W314-mediansitediffsel.csv
+2018-09-21 07:11:13,211 - INFO - Analyzing the diffsel values for the 2 samples in group OPV12.
+2018-09-21 07:11:13,211 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV12-mutdiffselcorr.pdf
+2018-09-21 07:11:13,776 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV12-absolutesitediffselcorr.pdf
+2018-09-21 07:11:14,110 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV12-positivesitediffselcorr.pdf
+2018-09-21 07:11:14,446 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV12-maxmutdiffselcorr.pdf
+2018-09-21 07:11:14,760 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV12-meanmutdiffsel.csv
+2018-09-21 07:11:14,863 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV12-meansitediffsel.csv
+2018-09-21 07:11:14,897 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV12-medianmutdiffsel.csv
+2018-09-21 07:11:14,998 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV12-mediansitediffsel.csv
+2018-09-21 07:11:15,034 - INFO - Analyzing the diffsel values for the 2 samples in group OPV20.
+2018-09-21 07:11:15,034 - INFO - Plotting mutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV20-mutdiffselcorr.pdf
+2018-09-21 07:11:15,580 - INFO - Plotting absolutesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV20-absolutesitediffselcorr.pdf
+2018-09-21 07:11:15,982 - INFO - Plotting positivesitediffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV20-positivesitediffselcorr.pdf
+2018-09-21 07:11:16,318 - INFO - Plotting maxmutdiffsel correlations to ./results/diffsel/wtDNA_ctrl/summary_OPV20-maxmutdiffselcorr.pdf
+2018-09-21 07:11:16,664 - INFO - Writing mean mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV20-meanmutdiffsel.csv
+2018-09-21 07:11:16,767 - INFO - Writing mean sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV20-meansitediffsel.csv
+2018-09-21 07:11:16,794 - INFO - Writing median mutdiffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV20-medianmutdiffsel.csv
+2018-09-21 07:11:16,900 - INFO - Writing median sitediffsel to ./results/diffsel/wtDNA_ctrl/summary_OPV20-mediansitediffsel.csv
+2018-09-21 07:11:16,928 - INFO - Plotting mean positive diffsel to ./results/diffsel/wtDNA_ctrl/summary_meanpositivediffsel.pdf
+2018-09-21 07:11:17,925 - INFO - Plotting mean total diffsel to ./results/diffsel/wtDNA_ctrl/summary_meantotaldiffsel.pdf
+2018-09-21 07:11:19,126 - INFO - Plotting mean max diffsel to ./results/diffsel/wtDNA_ctrl/summary_meanmaxdiffsel.pdf
+2018-09-21 07:11:20,035 - INFO - Plotting mean minmax diffsel to ./results/diffsel/wtDNA_ctrl/summary_meanminmaxdiffsel.pdf
+2018-09-21 07:11:21,442 - INFO - Plotting median positive diffsel to ./results/diffsel/wtDNA_ctrl/summary_medianpositivediffsel.pdf
+2018-09-21 07:11:22,412 - INFO - Plotting median total diffsel to ./results/diffsel/wtDNA_ctrl/summary_mediantotaldiffsel.pdf
+2018-09-21 07:11:23,643 - INFO - Plotting median max diffsel to ./results/diffsel/wtDNA_ctrl/summary_medianmaxdiffsel.pdf
+2018-09-21 07:11:24,547 - INFO - Plotting median minmax diffsel to ./results/diffsel/wtDNA_ctrl/summary_medianminmaxdiffsel.pdf
+2018-09-21 07:11:25,864 - INFO - Successful completion of dms2_batch_diffsel

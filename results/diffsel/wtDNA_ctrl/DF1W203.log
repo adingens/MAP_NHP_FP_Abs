@@ -1,8 +1,8 @@
-2018-09-10 19:47:11,493 - INFO - Beginning execution of dms2_logoplot in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+2018-09-21 07:19:07,727 - INFO - Beginning execution of dms2_logoplot in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
 
-2018-09-10 19:47:11,494 - INFO - Progress is being logged to ./results/diffsel/wtDNA_ctrl/DF1W203.log
-2018-09-10 19:47:12,714 - INFO - Version information:
-	Time and date: Mon Sep 10 19:47:11 2018
+2018-09-21 07:19:07,727 - INFO - Progress is being logged to ./results/diffsel/wtDNA_ctrl/DF1W203.log
+2018-09-21 07:19:09,520 - INFO - Version information:
+	Time and date: Fri Sep 21 07:19:07 2018
 	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
 	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
 	dms_tools2 version: 2.2.9
@@ -22,7 +22,7 @@
 	statsmodels version: 0.9.0
 	rpy2 version: 2.9.1
 
-2018-09-10 19:47:12,714 - INFO - Parsed the following arguments:
+2018-09-21 07:19:09,520 - INFO - Parsed the following arguments:
 	outdir = ./results/diffsel/wtDNA_ctrl
 	ncpus = -1
 	use_existing = yes
@@ -51,13 +51,13 @@
 	ignore_extracols = no
 	sepline = no
 
-2018-09-10 19:47:12,717 - INFO - Reading diffsel from file ./results/diffsel/wtDNA_ctrl/summary_DF1W203-medianmutdiffsel.csv...
-2018-09-10 19:47:12,744 - INFO - Read data for 670 sites.
+2018-09-21 07:19:09,523 - INFO - Reading diffsel from file ./results/diffsel/wtDNA_ctrl/summary_DF1W203-medianmutdiffsel.csv...
+2018-09-21 07:19:09,555 - INFO - Read data for 670 sites.
 
-2018-09-10 19:47:12,788 - INFO - Reading overlay for wildtype from ./results/diffsel/wtDNA_ctrl/summary_DF1W203-medianmutdiffsel.csv...
-2018-09-10 19:47:12,854 - INFO - Read overlay for 670 sites.
+2018-09-21 07:19:09,591 - INFO - Reading overlay for wildtype from ./results/diffsel/wtDNA_ctrl/summary_DF1W203-medianmutdiffsel.csv...
+2018-09-21 07:19:09,662 - INFO - Read overlay for 670 sites.
 
-2018-09-10 19:47:12,854 - INFO - Making logo plot ./results/diffsel/wtDNA_ctrl/DF1W203_diffsel.pdf...
-2018-09-10 19:47:20,846 - INFO - Successfully created logo plot.
+2018-09-21 07:19:09,662 - INFO - Making logo plot ./results/diffsel/wtDNA_ctrl/DF1W203_diffsel.pdf...
+2018-09-21 07:19:17,405 - INFO - Successfully created logo plot.
 
-2018-09-10 19:47:20,847 - INFO - Successful completion of dms2_logoplot
+2018-09-21 07:19:17,407 - INFO - Successful completion of dms2_logoplot

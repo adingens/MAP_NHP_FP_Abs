@@ -1,8 +1,8 @@
-2018-09-10 20:08:08,749 - INFO - Beginning execution of dms2_logoplot in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
+2018-09-21 07:17:22,454 - INFO - Beginning execution of dms2_logoplot in directory /fh/fast/bloom_j/computational_notebooks/adingens/2017/FusionPeptide_Antibodies/NHP_FP_Ab_Lineages_MAP
 
-2018-09-10 20:08:08,749 - INFO - Progress is being logged to ./results/fracsurviveaboveavg/wtDNA_ctrl/OPV12-median.log
-2018-09-10 20:08:10,005 - INFO - Version information:
-	Time and date: Mon Sep 10 20:08:08 2018
+2018-09-21 07:17:22,454 - INFO - Progress is being logged to ./results/fracsurviveaboveavg/wtDNA_ctrl/OPV12-median.log
+2018-09-21 07:17:26,542 - INFO - Version information:
+	Time and date: Fri Sep 21 07:17:22 2018
 	Platform: Linux-3.13.0-143-generic-x86_64-with-debian-jessie-sid
 	Python version: 3.6.5 |Anaconda, Inc.| (default, Apr 29 2018, 16:14:56)  [GCC 7.2.0]
 	dms_tools2 version: 2.2.9
@@ -22,7 +22,7 @@
 	statsmodels version: 0.9.0
 	rpy2 version: 2.9.1
 
-2018-09-10 20:08:10,005 - INFO - Parsed the following arguments:
+2018-09-21 07:17:26,543 - INFO - Parsed the following arguments:
 	outdir = ./results/fracsurviveaboveavg/wtDNA_ctrl
 	ncpus = -1
 	use_existing = yes
@@ -51,13 +51,13 @@
 	ignore_extracols = no
 	sepline = no
 
-2018-09-10 20:08:10,007 - INFO - Reading fracsurvive from file ./results/fracsurviveaboveavg/wtDNA_ctrl/summary_OPV12-medianmutfracsurvive.csv...
-2018-09-10 20:08:10,034 - INFO - Read data for 670 sites.
+2018-09-21 07:17:26,547 - INFO - Reading fracsurvive from file ./results/fracsurviveaboveavg/wtDNA_ctrl/summary_OPV12-medianmutfracsurvive.csv...
+2018-09-21 07:17:26,601 - INFO - Read data for 670 sites.
 
-2018-09-10 20:08:10,078 - INFO - Reading overlay for wildtype from ./results/fracsurviveaboveavg/wtDNA_ctrl/summary_OPV12-medianmutfracsurvive.csv...
-2018-09-10 20:08:10,144 - INFO - Read overlay for 670 sites.
+2018-09-21 07:17:26,637 - INFO - Reading overlay for wildtype from ./results/fracsurviveaboveavg/wtDNA_ctrl/summary_OPV12-medianmutfracsurvive.csv...
+2018-09-21 07:17:26,702 - INFO - Read overlay for 670 sites.
 
-2018-09-10 20:08:10,144 - INFO - Making logo plot ./results/fracsurviveaboveavg/wtDNA_ctrl/OPV12-median_fracsurvive.pdf...
-2018-09-10 20:08:16,781 - INFO - Successfully created logo plot.
+2018-09-21 07:17:26,702 - INFO - Making logo plot ./results/fracsurviveaboveavg/wtDNA_ctrl/OPV12-median_fracsurvive.pdf...
+2018-09-21 07:17:32,566 - INFO - Successfully created logo plot.
 
-2018-09-10 20:08:16,781 - INFO - Successful completion of dms2_logoplot
+2018-09-21 07:17:32,567 - INFO - Successful completion of dms2_logoplot
